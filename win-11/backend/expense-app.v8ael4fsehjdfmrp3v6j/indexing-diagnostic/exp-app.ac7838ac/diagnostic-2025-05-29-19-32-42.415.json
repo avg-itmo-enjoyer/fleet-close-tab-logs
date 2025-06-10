@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-29T16:32:42.416558Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "exp-app",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; moduleRunnerTransport.d-DJ_mE5sf.d.ts, index.d.ts, module-runner.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 3,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 27382500,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 383400,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 26957500,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 1984900,
+      "dumbModeStart" : "2025-05-29T16:32:42.3935547Z",
+      "dumbWallTimeWithPauses" : 19968300,
+      "dumbWallTimeWithoutPauses" : 19968300,
+      "updatingStart" : "2025-05-29T16:32:42.3789308Z",
+      "updatingEnd" : "2025-05-29T16:32:42.413523Z",
+      "totalWallTimeWithPauses" : 34592200,
+      "wallTimeOnPause" : 902600,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 33689600
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 88,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 87
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; moduleRunnerTransport.d-DJ_mE5sf.d.ts, index.d.ts, module-runner.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 88,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 87,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 22352500,
+      "totalOneThreadTimeWithPauses" : 27382500,
+      "iterationAndScannersApplicationTime" : 383400,
+      "filesCheckTime" : 26957500,
+      "timeProcessingUpToDateFiles" : 48300,
+      "timeUpdatingContentLessIndexes" : 9624200,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 1984900,
+      "roots" : [ ]
+    } ]
+  }
+}

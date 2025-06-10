@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-05T06:02:26.6896678Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "micro",
+    "times" : {
+      "scanningReason" : "On project open",
+      "scanningType" : "PARTIAL_ON_PROJECT_OPEN",
+      "scanningId" : 0,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 351644500,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 5926600,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 343859400,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 1121700,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-06-05T06:02:26.3484695Z",
+      "updatingEnd" : "2025-06-05T06:02:26.6761248Z",
+      "totalWallTimeWithPauses" : 327655300,
+      "wallTimeOnPause" : 1997300,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 325658000
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 6,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 6
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "dirty files iterator (from orphan queue=false)",
+      "numberOfScannedFiles" : 2,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 2,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 277545100,
+      "totalOneThreadTimeWithPauses" : 286868800,
+      "iterationAndScannersApplicationTime" : 2968600,
+      "filesCheckTime" : 282979100,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 591900,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 77600,
+      "roots" : [ ]
+    }, {
+      "providerName" : "dirty files iterator (from orphan queue=true)",
+      "numberOfScannedFiles" : 4,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 4,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 54807200,
+      "totalOneThreadTimeWithPauses" : 64775700,
+      "iterationAndScannersApplicationTime" : 2958000,
+      "filesCheckTime" : 60880300,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 5739800,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 1044100,
+      "roots" : [ ]
+    } ]
+  }
+}

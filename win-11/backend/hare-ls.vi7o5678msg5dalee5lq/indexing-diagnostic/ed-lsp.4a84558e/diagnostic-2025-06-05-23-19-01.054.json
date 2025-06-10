@@ -1,0 +1,64 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-05T20:19:01.0547118Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "ed-lsp",
+    "times" : {
+      "scanningReason" : "changes in: \"Synthetic library 'Go SDK 1.24.3'\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 753341800,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 153278300,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 599945500,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-06-05T20:19:00.2872684Z",
+      "updatingEnd" : "2025-06-05T20:19:01.0536381Z",
+      "totalWallTimeWithPauses" : 766369700,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 766369700
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 6882,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Synthetic library 'Go SDK 1.24.3'",
+      "numberOfScannedFiles" : 6882,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 553131100,
+      "totalOneThreadTimeWithPauses" : 753341800,
+      "iterationAndScannersApplicationTime" : 153278300,
+      "filesCheckTime" : 599945500,
+      "timeProcessingUpToDateFiles" : 128815300,
+      "timeUpdatingContentLessIndexes" : 1776600,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

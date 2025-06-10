@@ -1,0 +1,26 @@
+{
+  "pageCacheStats" : {
+    "cachedChannelsStatistics" : {
+      "hit" : 62,
+      "miss" : 0,
+      "load" : 316,
+      "capacity" : 400
+    },
+    "uncachedFileAccess" : 1469,
+    "maxRegisteredFiles" : 4606,
+    "maxCacheSizeInBytes" : 629145600,
+    "totalCachedSizeInBytes" : 0,
+    "pageHits" : 222,
+    "pageFastCacheHits" : 37681,
+    "pageLoadsAboveSizeThreshold" : 1205,
+    "regularPageLoads" : 602,
+    "disposedBuffers" : 1807,
+    "totalPageDisposalUs" : 6002,
+    "totalPageLoadUs" : 3741723,
+    "totalPagesLoaded" : 1807,
+    "capacityInBytes" : 629145600
+  },
+  "indexStorageStats" : {
+    "indexStoragesStats" : { }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T18:27:31.8862489Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "gradle-init-project-tutorial",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"External roots from entity (sysvshm, soap, xmlreader, ...; empty; empty; empty)\" with changes in: \"JDK JAVA_HOME C:/Program Files/Java/jdk-21\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : -4001000,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 7476167900,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 5003862400,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 2472132800,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 224141500,
+      "dumbModeStart" : "2025-05-13T18:27:24.7341768Z",
+      "dumbWallTimeWithPauses" : 7150610800,
+      "dumbWallTimeWithoutPauses" : 7146609800,
+      "updatingStart" : "2025-05-13T18:27:24.7341768Z",
+      "updatingEnd" : "2025-05-13T18:27:31.8847876Z",
+      "totalWallTimeWithPauses" : 7150610800,
+      "wallTimeOnPause" : 4001000,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 7146609800
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 43252,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 42901
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "JDK JAVA_HOME C:/Program Files/Java/jdk-21",
+      "numberOfScannedFiles" : 42928,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 42577,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1911398200,
+      "totalOneThreadTimeWithPauses" : 7123065700,
+      "iterationAndScannersApplicationTime" : 4956505000,
+      "filesCheckTime" : 2166451600,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 853999900,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 203591400,
+      "roots" : [ ]
+    }, {
+      "providerName" : "External roots from entity (sysvshm, soap, xmlreader, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 128347100,
+      "totalOneThreadTimeWithPauses" : 353102200,
+      "iterationAndScannersApplicationTime" : 47357400,
+      "filesCheckTime" : 305681200,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 631400,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 20550100,
+      "roots" : [ ]
+    } ]
+  }
+}

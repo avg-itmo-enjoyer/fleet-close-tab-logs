@@ -1,0 +1,557 @@
+"main" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.CompletableFuture$Signaller@2fb94228
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.CompletableFuture$Signaller.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.CompletableFuture.waitingGet(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at fleet.noria.windowManagement.impl/noria.windowManagement.impl.skiko.AwtSkikoWindowManager$commandExecutor$2$1$1$3.invoke(AwtSkikoWindowManager.kt:1413)
+	at fleet.noria.windowManagement.impl/noria.windowManagement.impl.skiko.AwtSkikoWindowManager$commandExecutor$2$1$1$3.invoke(AwtSkikoWindowManager.kt:1386)
+	at fleet.noria.windowManagement.extensions/noria.windowManagement.extensions.FleetUtilCommandExecutor.execute-gIAlu-s(FleetUtilCommandExecutor.kt:31)
+	at fleet.noria.windowManagement.impl/noria.windowManagement.impl.skiko.AwtSkikoWindowManager.execute-gIAlu-s(AwtSkikoWindowManager.kt:1623)
+	at fleet.noria.windowManagement.extensions/noria.windowManagement.extensions.WindowManagerKt.runEventLoop(WindowManager.kt:93)
+	at fleet.noria.windowManagement.extensions/noria.windowManagement.extensions.EventLoopKt$eventLoop$2.invokeSuspend(EventLoop.kt:88)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at fleet.kotlin.runtime/kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.EventLoopImplBase.processNextEvent(EventLoop.common.kt:263)
+	at fleet.kotlin.runtime/kotlinx.coroutines.BlockingCoroutine.joinBlocking(Builders.kt:112)
+	at fleet.kotlin.runtime/kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking$BuildersKt__BuildersKt(Builders.kt:85)
+	at fleet.kotlin.runtime/kotlinx.coroutines.BuildersKt__BuildersKt.runBlocking(Builders.kt:53)
+	at fleet.kotlin.runtime/kotlinx.coroutines.BuildersKt.runBlocking(Unknown Source)
+	at fleet.dock.desktop/fleet.dock.desktop.DesktopDock$main$exitCode$1$1.invoke(DesktopDock.kt:130)
+	at fleet.dock.desktop/fleet.dock.desktop.DesktopDock$main$exitCode$1$1.invoke(DesktopDock.kt:90)
+	at fleet.dock.impl/fleet.dock.impl.WithLoggingKt.withLogging(WithLogging.kt:19)
+	at fleet.dock.desktop/fleet.dock.desktop.DesktopDock$main$exitCode$1.invoke(DesktopDock.kt:90)
+	at fleet.dock.desktop/fleet.dock.desktop.DesktopDock$main$exitCode$1.invoke(DesktopDock.kt:83)
+	at fleet.dock.impl/fleet.dock.impl.coroutines.FleetDebugProbesKt$withDebugProbes$1.invoke(FleetDebugProbes.kt:30)
+	at fleet.dock.impl/fleet.dock.impl.coroutines.FleetDebugProbesKt.withCoroutinesDumpToJstack(FleetDebugProbes.kt:61)
+	at fleet.dock.impl/fleet.dock.impl.coroutines.FleetDebugProbesKt.withDebugProbes(FleetDebugProbes.kt:29)
+	at fleet.dock.desktop/fleet.dock.desktop.DesktopDock.main(DesktopDock.kt:83)
+	at app/fleet.dock.bootstrap/fleet.dock.bootstrap.FleetBootstrap.runDock(Unknown Source)
+	at app/fleet.dock.bootstrap/fleet.dock.bootstrap.FleetBootstrap.main(Unknown Source)
+
+"Reference Handler" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+	at java.base@21.0.5/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.5/java.lang.ref.Reference.processPendingReferences(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+"Finalizer" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.lang.ref.NativeReferenceQueue$Lock@5c9db1ce
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	at java.base@21.0.5/java.lang.Object.wait(Unknown Source)
+	at java.base@21.0.5/java.lang.Object.wait(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.NativeReferenceQueue.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.NativeReferenceQueue.remove(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+"Signal Dispatcher" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+
+"Attach Listener" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+
+"Common-Cleaner" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1c182407
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.base@21.0.5/jdk.internal.ref.CleanerImpl.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+	at java.base@21.0.5/jdk.internal.misc.InnocuousThread.run(Unknown Source)
+
+"Notification Thread" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+
+"Coroutines Debugger Cleaner" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@463332e2
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at fleet.kotlin.runtime/kotlinx.coroutines.debug.internal.ConcurrentWeakMap.runWeakRefQueueCleaningLoopUntilInterrupted(ConcurrentWeakMap.kt:69)
+	at fleet.kotlin.runtime/kotlinx.coroutines.debug.internal.DebugProbesImpl.startWeakRefCleanerThread$lambda$2(DebugProbesImpl.kt:92)
+	at fleet.kotlin.runtime/kotlinx.coroutines.debug.internal.DebugProbesImpl$$Lambda/0x00000001000ee7a8.invoke(Unknown Source)
+	at fleet.kotlin.runtime/kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+
+"AsyncAppender-Worker-ConsoleLogDelegate" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@23fe900e
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ArrayBlockingQueue.take(Unknown Source)
+	at ch.qos.logback.core@1.3.14/ch.qos.logback.core.AsyncAppenderBase$Worker.run(AsyncAppenderBase.java:298)
+
+"AsyncAppender-Worker-FileLogDelegate" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@125c467e
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ArrayBlockingQueue.take(Unknown Source)
+	at ch.qos.logback.core@1.3.14/ch.qos.logback.core.AsyncAppenderBase$Worker.run(AsyncAppenderBase.java:298)
+
+"AsyncAppender-Worker-WorkspaceNotificationAppenderDelegate" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@4f39702e
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ArrayBlockingQueue.take(Unknown Source)
+	at ch.qos.logback.core@1.3.14/ch.qos.logback.core.AsyncAppenderBase$Worker.run(AsyncAppenderBase.java:298)
+
+"logback-1" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1042ef09
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"DefaultDispatcher-worker-7" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@21.0.5/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.5/sun.nio.ch.WEPollSelectorImpl.doSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.select(ActorSelectorManager.kt:97)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.access$select(ActorSelectorManager.kt:18)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager$select$1.invokeSuspend(ActorSelectorManager.kt)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1180)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"DefaultDispatcher-worker-11" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@21.0.5/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.5/sun.nio.ch.WEPollSelectorImpl.doSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.select(ActorSelectorManager.kt:97)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.access$select(ActorSelectorManager.kt:18)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager$select$1.invokeSuspend(ActorSelectorManager.kt)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1180)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"DefaultDispatcher-worker-13" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@21.0.5/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.5/java.io.FileInputStream.read(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.lockedRead(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.base@21.0.5/java.io.InputStreamReader.read(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.fill(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.implReadLine(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.readLine(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.readLine(Unknown Source)
+	at fleet.kotlin.runtime/kotlin.io.LinesSequence$iterator$1.hasNext(ReadWrite.kt:85)
+	at fleet.kotlin.runtime/kotlin.io.TextStreamsKt.forEachLine(ReadWrite.kt:160)
+	at fleet.ship/fleet.ship.SharedFsdInstance_jvmKt$withSharedFsdInstance$2$1$2$2.invokeSuspend(SharedFsdInstance.jvm.kt:65)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1180)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"kotlinx.coroutines.DefaultExecutor" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on kotlinx.coroutines.DefaultExecutor@47eb73ef
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DefaultExecutor.run(DefaultExecutor.kt:118)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"JNA Cleaner" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@37f4b2da
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at com.sun.jna@5.17.0/com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+"AWT-Shutdown" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.lang.Object@33481c0a
+	at java.base@21.0.5/java.lang.Object.wait0(Native Method)
+	at java.base@21.0.5/java.lang.Object.wait(Unknown Source)
+	at java.base@21.0.5/java.lang.Object.wait(Unknown Source)
+	at java.desktop@21.0.5/sun.awt.AWTAutoShutdown.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"Java2D Disposer" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@347597cd
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.desktop@21.0.5/sun.java2d.Disposer.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"AWT-Windows" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.desktop@21.0.5/sun.awt.windows.WToolkit.eventLoop(Native Method)
+	at java.desktop@21.0.5/sun.awt.windows.WToolkit.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"AWT-EventQueue-0" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@289dfea7
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.desktop@21.0.5/java.awt.EventQueue.getNextEvent(Unknown Source)
+	at java.desktop@21.0.5/java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+	at java.desktop@21.0.5/java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+	at java.desktop@21.0.5/java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+	at java.desktop@21.0.5/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop@21.0.5/java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+	at java.desktop@21.0.5/java.awt.EventDispatchThread.run(Unknown Source)
+
+"Reference Cleaner" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@3aedfb0c
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.await(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.5/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at skiko.awt@0.9.2/org.jetbrains.skia.impl.Cleaner$1.invoke(Managed.jvm.kt:131)
+	at skiko.awt@0.9.2/org.jetbrains.skia.impl.Cleaner$1.invoke(Managed.jvm.kt:129)
+	at fleet.kotlin.runtime/kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+
+"Windows 10 Theme Detector Thread" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at com.sun.jna@5.17.0/com.sun.jna.Native.invokeInt(Native Method)
+	at com.sun.jna@5.17.0/com.sun.jna.Function.invoke(Function.java:429)
+	at com.sun.jna@5.17.0/com.sun.jna.Function.invoke(Function.java:364)
+	at com.sun.jna@5.17.0/com.sun.jna.Library$Handler.invoke(Library.java:270)
+	at jdk.proxy2/jdk.proxy2.$Proxy12.RegNotifyChangeKeyValue(Unknown Source)
+	at fleet.noria.windowManagement.impl/noria.windowManagement.impl.skiko.themes.WindowsThemeDetector$DetectorThread.run(WindowsThemeDetector.kt:67)
+
+"Swing-Shell" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@49b61817
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.desktop@21.0.5/sun.awt.shell.Win32ShellFolderManager2$ComInvoker$1.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"DefaultDispatcher-worker-16" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@21.0.5/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.5/java.io.FileInputStream.read(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedInputStream.implRead(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedInputStream.read(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.lockedRead(Unknown Source)
+	at java.base@21.0.5/sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.base@21.0.5/java.io.InputStreamReader.read(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.fill(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.implReadLine(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.readLine(Unknown Source)
+	at java.base@21.0.5/java.io.BufferedReader.readLine(Unknown Source)
+	at fleet.kotlin.runtime/kotlin.io.LinesSequence$iterator$1.hasNext(ReadWrite.kt:85)
+	at fleet.kotlin.runtime/kotlin.io.TextStreamsKt.forEachLine(ReadWrite.kt:160)
+	at fleet.ship/fleet.ship.SharedFsdInstance_jvmKt$withSharedFsdInstance$2$1$2$1.invokeSuspend(SharedFsdInstance.jvm.kt:61)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.internal.LimitedDispatcher$Worker.run(LimitedDispatcher.kt:113)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1180)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"DefaultDispatcher-worker-17" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+
+	at java.management@21.0.5/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.5/sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at java.management@21.0.5/sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at fleet.frontend.ui/fleet.frontend.ui.help.threadDumper.ThreadDumper.getThreadInfos(ThreadDumper.kt:27)
+	at fleet.frontend.ui/fleet.frontend.ui.help.threadDumper.ThreadDumper.getThreadInfos(ThreadDumper.kt:21)
+	at fleet.frontend.ui/fleet.frontend.ui.help.threadDumper.ThreadDumper.dumpThreadsToString(ThreadDumper.kt:15)
+	at fleet.frontend.ui/fleet.frontend.ui.help.LogsActionsKt$collectWorkspaceLogs$2.invokeSuspend(LogsActions.kt:329)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1186)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"rpc-client-i6cplmjguoteitdo7l93" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@51653513
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"Kernel event loop thread 89rhp53mo1n8odo7lmca" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@16ca815e
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"rpc-client-gf9unqgk45ri3bba9mv9" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@43aa2d10
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"pool-3-thread-1" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at skiko.awt@0.9.2/org.jetbrains.skiko.context.Direct3DContextHandler.flush(Native Method)
+	at skiko.awt@0.9.2/org.jetbrains.skiko.context.Direct3DContextHandler.flush(Direct3DContextHandler.kt:87)
+	at skiko.awt@0.9.2/org.jetbrains.skiko.context.ContextHandler.draw(ContextHandler.kt:47)
+	at skiko.awt@0.9.2/org.jetbrains.skiko.redrawer.Direct3DRedrawer.drawAndSwap(Direct3DRedrawer.kt:91)
+	at skiko.awt@0.9.2/org.jetbrains.skiko.redrawer.Direct3DRedrawer.access$drawAndSwap(Direct3DRedrawer.kt:12)
+	at skiko.awt@0.9.2/org.jetbrains.skiko.redrawer.Direct3DRedrawer$draw$2$1.invokeSuspend(Direct3DRedrawer.kt:82)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"DefaultDispatcher-worker-25" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@21.0.5/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.5/sun.nio.ch.WEPollSelectorImpl.doSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.select(ActorSelectorManager.kt:97)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.access$select(ActorSelectorManager.kt:18)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager$select$1.invokeSuspend(ActorSelectorManager.kt)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1180)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"DefaultDispatcher-worker-26" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@21.0.5/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.5/sun.nio.ch.WEPollSelectorImpl.doSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.select(ActorSelectorManager.kt:97)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.access$select(ActorSelectorManager.kt:18)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager$select$1.invokeSuspend(ActorSelectorManager.kt)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1180)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"DefaultDispatcher-worker-29" prio=0 tid=0x0 nid=0x0 runnable
+     java.lang.Thread.State: RUNNABLE
+ (in native)
+	at java.base@21.0.5/sun.nio.ch.WEPoll.wait(Native Method)
+	at java.base@21.0.5/sun.nio.ch.WEPollSelectorImpl.doSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	at java.base@21.0.5/sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.select(ActorSelectorManager.kt:97)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager.access$select(ActorSelectorManager.kt:18)
+	at io.ktor.network@3.0.3/io.ktor.network.selector.ActorSelectorManager$select$1.invokeSuspend(ActorSelectorManager.kt)
+	at fleet.kotlin.runtime/kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at fleet.kotlin.runtime/kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at fleet.kotlin.runtime/kotlinx.coroutines.internal.SoftLimitedDispatcher$Worker.run(SoftLimitedDispatcher.kt:130)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.TaskImpl.run(Tasks.kt:89)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1180)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at fleet.kotlin.runtime/kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+
+"logback-2" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1042ef09
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"logback-3" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1042ef09
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"pool-3-thread-2" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: TIMED_WAITING
+ on java.util.concurrent.SynchronousQueue$Transferer@3aa5f3d2
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.LinkedTransferQueue$DualNode.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.SynchronousQueue.xfer(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+
+"logback-4" prio=0 tid=0x0 nid=0x0 waiting on condition
+     java.lang.Thread.State: WAITING
+ on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1042ef09
+	at java.base@21.0.5/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.5/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionNode.block(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.unmanagedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.5/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.5/java.lang.Thread.run(Unknown Source)
+

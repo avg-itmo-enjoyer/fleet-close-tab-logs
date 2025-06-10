@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-29T16:33:31.1515871Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "exp-app",
+    "times" : {
+      "scanningReason" : "changes in: \"com.intellij.openapi.roots.ImmutableSyntheticLibrary@b2e52a42\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 4,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 25908900,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 314900,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 25532700,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 1950300,
+      "dumbModeStart" : "2025-05-29T16:33:31.1380691Z",
+      "dumbWallTimeWithPauses" : 10226900,
+      "dumbWallTimeWithoutPauses" : 10226900,
+      "updatingStart" : "2025-05-29T16:33:31.1170575Z",
+      "updatingEnd" : "2025-05-29T16:33:31.148296Z",
+      "totalWallTimeWithPauses" : 31238500,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 31238500
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 98,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 98
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "com.intellij.openapi.roots.ImmutableSyntheticLibrary@b2e52a42",
+      "numberOfScannedFiles" : 98,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 98,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 20354600,
+      "totalOneThreadTimeWithPauses" : 25908900,
+      "iterationAndScannersApplicationTime" : 314900,
+      "filesCheckTime" : 25532700,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 8099600,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 1950300,
+      "roots" : [ ]
+    } ]
+  }
+}

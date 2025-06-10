@@ -1,0 +1,911 @@
+<html>
+  <head>
+    <title>Indexing diagnostics of 'hare-ls'</title>
+    <style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.activity-table {
+  width: 100%;
+}
+
+table.metrics-table {
+  width: auto;
+}
+
+.red-text {
+  color: red;
+}
+
+table.narrow-activity-table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.stats-content {
+  margin-left: 20%;
+}
+
+.stats-activity-content {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.aggregate-activity-report-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aggregate-header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+.table-with-margin{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}
+
+.scanning-table-row {
+  background-color: aliceblue;
+}
+
+.not-applicable-data{
+  color: darkgrey;
+}</style>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script>
+  </head>
+  <body>
+    <div class="aggregate-activity-report-content">
+      <h1 class="aggregate-header">hare-ls</h1>
+      <div>All durations are wall time; total and content loading time include pauses
+        <table class="centered-text table-with-margin activity-table"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Click for details</caption>
+          <thead>
+            <tr>
+              <th colspan="14">History of scannings and indexings</th>
+            </tr>
+            <tr>
+              <th colspan="7">Time</th>
+              <th colspan="5">Files</th>
+              <th rowspan="2">Scanning ID(s)</th>
+              <th rowspan="2">Scanning Type</th>
+            </tr>
+            <tr>
+              <th>Started</th>
+              <th>Started dumb mode</th>
+              <th>Finished</th>
+              <th>Total&nbsp;time</th>
+              <th>Time spent on pause</th>
+              <th>Full dumb mode time</th>
+              <th>Dumb mode time w/o pauses</th>
+              <th>Scanned</th>
+              <th>Shared indexes (w/o content loading)</th>
+              <th>Scheduled for indexing</th>
+              <th>Shared indexes (content loaded)</th>
+              <th>Total indexed (shared indexes included)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="linkable-table-row" href="diagnostic-2025-06-05-17-26-52.124.html">
+              <td>17:26:52 05 июн.</td>
+              <td>17:26:52 05 июн.</td>
+              <td>17:26:52 05 июн.</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-06-05-17-26-52.072.html">
+              <td>17:26:52 05 июн.</td>
+              <td>17:26:52 05 июн.</td>
+              <td>17:26:52 05 июн.</td>
+              <td>52 ms</td>
+              <td>0</td>
+              <td>52 ms</td>
+              <td>52 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>12</td>
+              <td>3</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-06-05-17-26-52.020.html">
+              <td>17:26:51 05 июн.</td>
+              <td>17:26:51 05 июн.</td>
+              <td>17:26:52 05 июн.</td>
+              <td>52 ms</td>
+              <td>12 ms</td>
+              <td>51 ms</td>
+              <td>39 ms</td>
+              <td>12</td>
+              <td>0</td>
+              <td>12</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>3</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-06-05-17-26-51.963.html">
+              <td>17:26:34 05 июн.</td>
+              <td>17:26:34 05 июн.</td>
+              <td>17:26:51 05 июн.</td>
+              <td>17 s 664 ms</td>
+              <td>0</td>
+              <td>17 s 664 ms</td>
+              <td>17 s 664 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>5940</td>
+              <td>7284<br>(incl. 4 changed in VFS)</td>
+              <td>2</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-06-05-17-26-34.294.html">
+              <td>17:26:25 05 июн.</td>
+              <td>17:26:25 05 июн.</td>
+              <td>17:26:34 05 июн.</td>
+              <td>8 s 322 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>8 s 322 ms</td>
+              <td>8 s 322 ms</td>
+              <td>7679</td>
+              <td>0</td>
+              <td>7280</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>2</td>
+              <td>full</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-06-05-17-26-25.965.html">
+              <td>17:26:21 05 июн.</td>
+              <td>17:26:21 05 июн.</td>
+              <td>17:26:25 05 июн.</td>
+              <td>4 s 266 ms</td>
+              <td>0</td>
+              <td>4 s 266 ms</td>
+              <td>4 s 266 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>396<br>(incl. 12 changed in VFS)</td>
+              <td>0, 1</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-06-05-17-26-22.304.html">
+              <td>17:26:21 05 июн.</td>
+              <td>17:26:21 05 июн.</td>
+              <td><strong class="Cancelled"></strong><br>17:26:21 05 июн.</td>
+              <td class="red-text">260 ms
+cancelled</td>
+              <td>9 ms</td>
+              <td>259 ms</td>
+              <td>250 ms</td>
+              <td>384</td>
+              <td>0</td>
+              <td>384</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>1</td>
+              <td>full</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-06-05-17-26-21.421.html">
+              <td>17:26:18 05 июн.</td>
+              <td>17:26:21 05 июн.</td>
+              <td><strong class="Cancelled"></strong><br>17:26:21 05 июн.</td>
+              <td class="red-text">2 s 538 ms
+cancelled</td>
+              <td>11 ms</td>
+              <td>75 ms</td>
+              <td>75 ms</td>
+              <td>127</td>
+              <td>0</td>
+              <td>127</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>full on project open</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table metrics-table">
+          <thead>
+            <tr>
+              <th colspan="2">Metrics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>indexingTimeWithoutPauses</td>
+              <td>21 s 984 ms</td>
+            </tr>
+            <tr>
+              <td>scanningTimeWithoutPauses</td>
+              <td>11 s 141 ms</td>
+            </tr>
+            <tr>
+              <td>pausedTimeInIndexingOrScanning</td>
+              <td>33 ms</td>
+            </tr>
+            <tr>
+              <td>dumbModeTimeWithPauses</td>
+              <td>30 s 689 ms</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles</td>
+              <td>7692</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFilesWritingIndexValue</td>
+              <td>7692</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFilesWithNothingToWrite</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>numberOfFilesIndexedByExtensions</td>
+              <td>5940</td>
+            </tr>
+            <tr>
+              <td>numberOfFilesIndexedWithoutExtensions</td>
+              <td>1752</td>
+            </tr>
+            <tr>
+              <td>numberOfRunsOfScannning</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>numberOfRunsOfIndexing</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#TypeScript</td>
+              <td>1135</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#PHP</td>
+              <td>5754</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#XML</td>
+              <td>7238</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#DTD</td>
+              <td>3830</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#kotlin_builtins</td>
+              <td>151</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#SCSS</td>
+              <td>410</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Go</td>
+              <td>5005</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Markdown</td>
+              <td>741</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#RNG Compact</td>
+              <td>4681</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#JSON</td>
+              <td>18558</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Flow</td>
+              <td>1247</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#go.mod</td>
+              <td>83</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#PLAIN_TEXT</td>
+              <td>27262</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#x86 Plan9 Assembly</td>
+              <td>4071</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#ObjectiveC</td>
+              <td>868</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#CSS</td>
+              <td>84</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#JavaScript</td>
+              <td>1827</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Python</td>
+              <td>227</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#HTML</td>
+              <td>148</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Shell Script</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Perl</td>
+              <td>2812</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Dockerfile</td>
+              <td>604</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#PATCH</td>
+              <td>2469</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#tsconfig</td>
+              <td>697</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#DockerIgnore file</td>
+              <td>216</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#TypeScript</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#PHP</td>
+              <td>403</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#XML</td>
+              <td>762</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#DTD</td>
+              <td>326</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#kotlin_builtins</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#SCSS</td>
+              <td>51</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Go</td>
+              <td>120</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Markdown</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#RNG Compact</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#JSON</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Flow</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#go.mod</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#PLAIN_TEXT</td>
+              <td>101</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#x86 Plan9 Assembly</td>
+              <td>337</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#ObjectiveC</td>
+              <td>72</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#CSS</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#JavaScript</td>
+              <td>151</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Python</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#HTML</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Shell Script</td>
+              <td>166</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Perl</td>
+              <td>233</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Dockerfile</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#PATCH</td>
+              <td>204</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#tsconfig</td>
+              <td>57</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#DockerIgnore file</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#JavaScript</td>
+              <td>1165</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#TypeScript</td>
+              <td>1135</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#PHP</td>
+              <td>5754</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#XML</td>
+              <td>5751</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#DTD</td>
+              <td>3830</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#SCSS</td>
+              <td>410</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#CSS</td>
+              <td>285</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#go</td>
+              <td>5005</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Markdown</td>
+              <td>741</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#RELAX-NG</td>
+              <td>4681</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#JSON</td>
+              <td>18326</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Flow JS</td>
+              <td>1247</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#ECMAScript 6</td>
+              <td>1247</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#vgo</td>
+              <td>83</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#TEXT</td>
+              <td>27262</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#plan9_x86</td>
+              <td>4071</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#ObjectiveC</td>
+              <td>868</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Python</td>
+              <td>227</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#HTML</td>
+              <td>148</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Shell Script</td>
+              <td>2012</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Dockerfile</td>
+              <td>604</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#DockerIgnore</td>
+              <td>216</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#IgnoreLang</td>
+              <td>216</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#JavaScript</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#TypeScript</td>
+              <td>40</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#PHP</td>
+              <td>403</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#XML</td>
+              <td>635</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#DTD</td>
+              <td>326</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#SCSS</td>
+              <td>51</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#CSS</td>
+              <td>7</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#go</td>
+              <td>120</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Markdown</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#RELAX-NG</td>
+              <td>5</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#JSON</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Flow JS</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#ECMAScript 6</td>
+              <td>14</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#vgo</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#TEXT</td>
+              <td>101</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#plan9_x86</td>
+              <td>337</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#ObjectiveC</td>
+              <td>72</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Python</td>
+              <td>18</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#HTML</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Shell Script</td>
+              <td>166</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Dockerfile</td>
+              <td>50</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#DockerIgnore</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#IgnoreLang</td>
+              <td>17</td>
+            </tr>
+            <tr>
+              <td>processingTime#TypeScript</td>
+              <td>2 s 267 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#PHP</td>
+              <td>1 s 163 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#XML</td>
+              <td>585 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#DTD</td>
+              <td>233 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#kotlin_builtins</td>
+              <td>211 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#SCSS</td>
+              <td>154 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Go</td>
+              <td>15 s 368 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Markdown</td>
+              <td>147 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#RNG Compact</td>
+              <td>101 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#JSON</td>
+              <td>74 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Flow</td>
+              <td>112 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#go.mod</td>
+              <td>44 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#PLAIN_TEXT</td>
+              <td>35 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#x86 Plan9 Assembly</td>
+              <td>924 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#ObjectiveC</td>
+              <td>141 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#CSS</td>
+              <td>95 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#JavaScript</td>
+              <td>90 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Python</td>
+              <td>84 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#HTML</td>
+              <td>75 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Shell Script</td>
+              <td>49 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Perl</td>
+              <td>11 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Dockerfile</td>
+              <td>5 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#PATCH</td>
+              <td>1 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#tsconfig</td>
+              <td>0 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#DockerIgnore file</td>
+              <td>0 ms</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table">
+          <thead>
+            <tr>
+              <th colspan="9">Shared indexes</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Kind</th>
+              <th>Name</th>
+              <th>Size</th>
+              <th>Download time</th>
+              <th>Download speed</th>
+              <th>Status</th>
+              <th>ID</th>
+              <th>Generation time</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table">
+          <thead>
+            <tr>
+              <th colspan="5">Scanning to push properties of changed files</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Reason</th>
+              <th>Full duration</th>
+              <th>Is cancelled</th>
+              <th>Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>17:26:21 05 июн.</td>
+              <td>Push on VFS changes</td>
+              <td>5 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>17:26:20 05 июн.</td>
+              <td>Push on VFS changes</td>
+              <td>78 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

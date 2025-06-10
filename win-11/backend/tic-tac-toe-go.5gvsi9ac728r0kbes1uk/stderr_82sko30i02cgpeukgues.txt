@@ -1,0 +1,72 @@
+Ignoring option --illegal-access=permit; support was removed in 17.0
+WARNING: package com.apple.laf not in java.desktop
+WARNING: package com.apple.eawt.event not in java.desktop
+WARNING: package com.apple.eawt not in java.desktop
+SLF4J(E): A service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: Provider fleet.util.logging.slf4j.FleetSlf4jServiceProvider could not be instantiated
+2025-05-15 18:47:02,443 [    228]   WARN - #c.i.i.p.PluginManager - Problems found loading plugins:
+  IDE Neutral Cocoa Support (id=com.jetbrains.cocoa, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\cidr-cocoa-plugin): Requires plugin 'com.intellij.swift.lang' to be enabled
+  Swift Doc (id=com.intellij.swift.doc, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\swift-doc-plugin): Requires plugin 'com.intellij.swift.lang' to be enabled
+  Fleet Mercury: Enable Dependencies macOS (id=fleet.backend.mercury.depEnabler.macos, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\fleet-plugins-mercury-backend-depEnabler-macos): Plugin 'Fleet Mercury: Enable Dependencies macOS' requires plugin 'com.intellij.modules.os.mac' to be installed
+  Database Tools and SQL (id=com.intellij.database, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\DatabaseTools): Plugin 'Database Tools and SQL' requires plugin 'intellij.grid' to be installed
+  JVM Persistence Frameworks (id=com.intellij.persistence, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\javaee-persistence-impl): Plugin 'JVM Persistence Frameworks' requires plugin 'Database Tools and SQL' to be enabled
+  Jakarta EE: Persistence (JPA) (id=com.intellij.javaee.jpa, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\JPA): Plugin 'Jakarta EE: Persistence (JPA)' requires plugin 'JVM Persistence Frameworks' to be enabled
+  Fleet Java EE Platform (id=fleet.backend.javaee.platform, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\fleet-plugins-ultimate-javaee-platform-backend): Plugin 'Fleet Java EE Platform' requires plugin 'Jakarta EE: Persistence (JPA)' to be enabled
+  Fleet Java EE Web (id=fleet.backend.javaee.web, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\fleet-plugins-ultimate-javaee-web-backend): Plugin 'Fleet Java EE Web' requires plugin 'Fleet Java EE Platform' to be enabled
+  Fleet Java EL (id=fleet.backend.javaee.el, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\fleet-plugins-ultimate-javaee-el-backend): Plugin 'Fleet Java EL' requires plugin 'Fleet Java EE Platform' to be enabled
+  Fleet Spring MVC (id=fleet.backend.spring.mvc, path=~\AppData\Local\JetBrains\Fleet\intellij-plugin-2\fleet-backend-252.12832.tar.zst_7e04f59126e80c39c6b26c57f6279f9a\plugins\fleet-plugins-ultimate-spring-mvc-backend): Plugin 'Fleet Spring MVC' requires plugin 'Fleet Java EE Platform' to be enabled
+2025-05-15 18:47:02,856 [    641]   WARN - #c.i.d.GuiPluginConflictReporter - One should provide at least two conflicting classes to report
+2025-05-15 18:47:03,771 [   1556]   WARN - #fleet.backend.plugins.BackendPluginsInstaller - Unknown or rejected plugins: [fleet.backend.mercury.macos, fleet.backend.spring.data, org.jetbrains.plugins.ruby, com.intellij.swift.doc, com.jetbrains.cocoa, fleet.backend.mercury.depEnabler.macos, com.intellij.spring.ws, com.intellij.swift.lang, com.intellij.cidr.completion.ml.ranking, fleet.backend.mercury.android]
+2025-05-15 18:47:03,893 [   1678] SEVERE - fleet.backend.FleetBackendLifecycle - Failed to connect to the Unix Domain Socket (C:\Users\VLADIS~1\AppData\Local\Temp\fleet-d5qx6j35336i3fvgzukf\intellij.sock)
+java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.UnixDomainSockets.connect0(Native Method)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:166)
+	at java.base/sun.nio.ch.UnixDomainSockets.connect(UnixDomainSockets.java:162)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:878)
+	at fleet.backend.FleetBackendShutdownKt.waitForGracefulShutdownSignal(FleetBackendShutdown.kt:101)
+	at fleet.backend.FleetBackendShutdownKt$initializeShutdownProcess$3.invoke(FleetBackendShutdown.kt:82)
+	at fleet.backend.FleetBackendShutdownKt$initializeShutdownProcess$3.invoke(FleetBackendShutdown.kt:81)
+	at kotlin.concurrent.ThreadsKt$thread$thread$1.run(Thread.kt:30)
+Loaded backend logback configuration from:
+	C:\Users\Vladislav\AppData\Roaming\JetBrains\Fleet\log.conf.toml
+Applying new dynamic config FleetLogConfiguration(refreshTimeout=30, default=WARN, perTarget={}, loggers=[Entry(loggerName=fleet, default=null, perTarget={CONSOLE=WARN, FILE=INFO}), Entry(loggerName=noria, default=null, perTarget={CONSOLE=WARN, FILE=INFO})])
+Applying categories []
+2025-05-15 18:47:04,125 [   1910] SEVERE - java.lang.Class - No span to remove from stack; entity=com.intellij.openapi.progress.impl.JobProviderWithOwnerContext@42477a98
+2025-05-15 18:47:04,317 [   2102]   WARN - #c.i.o.e.i.ExtensionPointImpl - Cancellation while notifying `fleet.backend.workspace.BackendServicesKt$serveExtensionServices$2$1@88bef49`
+java.lang.Throwable: Control-flow exceptions (e.g. this class com.intellij.openapi.progress.CeProcessCanceledException) should never be logged. Instead, these should have been rethrown if caught.
+	at com.intellij.openapi.diagnostic.Logger.ensureNotControlFlow(Logger.java:503)
+	at com.intellij.idea.IdeaLogger.warn(IdeaLogger.java:145)
+	at com.intellij.openapi.extensions.impl.ExtensionPointImpl.notifyListeners(ExtensionPointImpl.kt:676)
+	at com.intellij.openapi.extensions.impl.ExtensionPointImpl.addExtensionPointListener(ExtensionPointImpl.kt:694)
+	at fleet.backend.workspace.BackendServicesKt$serveExtensionServices$2.invokeSuspend(BackendServices.kt:87)
+	at fleet.backend.workspace.BackendServicesKt$serveExtensionServices$2.invoke(BackendServices.kt)
+	at fleet.backend.workspace.BackendServicesKt$serveExtensionServices$2.invoke(BackendServices.kt)
+	at fleet.util.async.JobExtKt$withSupervisor$2.invokeSuspend(JobExt.kt:32)
+	at fleet.util.async.JobExtKt$withSupervisor$2.invoke(JobExt.kt)
+	at fleet.util.async.JobExtKt$withSupervisor$2.invoke(JobExt.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:285)
+	at fleet.util.async.JobExtKt.withSupervisor(JobExt.kt:31)
+	at fleet.backend.workspace.BackendServicesKt.serveExtensionServices(BackendServices.kt:83)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$4$1$1$2.invokeSuspend(BackendWorkspace.kt:451)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1186)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+Caused by: com.intellij.openapi.progress.CeProcessCanceledException: kotlinx.coroutines.JobCancellationException: Job was cancelled; job="ApplicationImpl@576832316 container":supervisor:ChildScope{Cancelling}@5ffe38db
+	at com.intellij.openapi.progress.Cancellation.ensureActive(Cancellation.java:61)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.doCheckCanceled(CoreProgressManager.java:165)
+	at com.intellij.openapi.progress.ProgressManager.checkCanceled(ProgressManager.java:336)
+	at com.intellij.serviceContainer.ContainerUtilKt.checkCanceledIfNotInClassInit(containerUtil.kt:14)
+	at com.intellij.serviceContainer.ComponentManagerImpl.instantiateClass(ComponentManagerImpl.kt:906)
+	at com.intellij.openapi.extensions.impl.SimpleConstructorInjectionAdapter.instantiateClass(XmlExtensionAdapter.kt:102)
+	at com.intellij.openapi.extensions.impl.XmlExtensionAdapter.doCreateInstance(XmlExtensionAdapter.kt:52)
+	at com.intellij.openapi.extensions.impl.XmlExtensionAdapter.createInstance(XmlExtensionAdapter.kt:33)
+	at com.intellij.openapi.extensions.impl.ExtensionPointImpl.notifyListeners(ExtensionPointImpl.kt:665)
+	... 18 more
+Caused by: kotlinx.coroutines.JobCancellationException: Job was cancelled; job="ApplicationImpl@576832316 container":supervisor:ChildScope{Cancelling}@5ffe38db
+2025-05-15 18:47:04,318 [   2103]   WARN - #c.i.o.e.i.ExtensionPointImpl - Suppressed a frequent exception logged for the 2nd time: kotlinx.coroutines.JobCancellationException: Job was cancelled; job="ApplicationImpl@576832316 container":supervisor:ChildScope{Cancelling}@5ffe38db
+2025-05-15 18:47:04,344 [   2129]   WARN - #c.i.o.e.i.ExtensionPointImpl - Suppressed a frequent exception logged for the 5th time: kotlinx.coroutines.JobCancellationException: Job was cancelled; job="ApplicationImpl@576832316 container":supervisor:ChildScope{Cancelling}@5ffe38db
+2025-05-15 18:47:04,570 [   2355]   WARN - #c.i.o.e.i.ExtensionPointImpl - Suppressed a frequent exception logged for the 10th time: kotlinx.coroutines.JobCancellationException: Job was cancelled; job="ApplicationImpl@576832316 container":supervisor:ChildScope{Cancelling}@5ffe38db

@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-29T16:01:13.8269614Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "expense-app",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (http, decimal, sysvshm, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 861051000,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 335665200,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 525268000,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 62816200,
+      "dumbModeStart" : "2025-05-29T16:01:12.3449016Z",
+      "dumbWallTimeWithPauses" : 904279400,
+      "dumbWallTimeWithoutPauses" : 904279400,
+      "updatingStart" : "2025-05-29T16:01:12.3439082Z",
+      "updatingEnd" : "2025-05-29T16:01:13.249181Z",
+      "totalWallTimeWithPauses" : 905272800,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 905272800
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 324,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 324
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (http, decimal, sysvshm, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 452242400,
+      "totalOneThreadTimeWithPauses" : 861051000,
+      "iterationAndScannersApplicationTime" : 335665200,
+      "filesCheckTime" : 525268000,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 168440200,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 62816200,
+      "roots" : [ ]
+    } ]
+  }
+}

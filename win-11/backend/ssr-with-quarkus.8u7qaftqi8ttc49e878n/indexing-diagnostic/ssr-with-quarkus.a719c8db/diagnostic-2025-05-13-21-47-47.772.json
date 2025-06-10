@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T18:47:47.7733225Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "ssr-with-quarkus",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"External roots from entity (frankenphp, mcrypt, dio, ...; empty; empty; empty)\" with changes in: \"JDK JAVA_HOME C:/Program Files/Java/jdk-21\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 7918975800,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4899769000,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 3018983100,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 241359800,
+      "dumbModeStart" : "2025-05-13T18:47:39.9021518Z",
+      "dumbWallTimeWithPauses" : 7868715300,
+      "dumbWallTimeWithoutPauses" : 7867701600,
+      "updatingStart" : "2025-05-13T18:47:39.9021518Z",
+      "updatingEnd" : "2025-05-13T18:47:47.7708671Z",
+      "totalWallTimeWithPauses" : 7868715300,
+      "wallTimeOnPause" : 1013700,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 7867701600
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 43252,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 42901
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "JDK JAVA_HOME C:/Program Files/Java/jdk-21",
+      "numberOfScannedFiles" : 42928,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 42577,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 2276610300,
+      "totalOneThreadTimeWithPauses" : 7862585200,
+      "iterationAndScannersApplicationTime" : 4897310100,
+      "filesCheckTime" : 2965141900,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 1047401700,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 223857100,
+      "roots" : [ ]
+    }, {
+      "providerName" : "External roots from entity (frankenphp, mcrypt, dio, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 46643100,
+      "totalOneThreadTimeWithPauses" : 56390600,
+      "iterationAndScannersApplicationTime" : 2458900,
+      "filesCheckTime" : 53841200,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 441900,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 17502700,
+      "roots" : [ ]
+    } ]
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T18:27:54.1700999Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "gradle-init-project-tutorial",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'gradle-init-project-tutorial.app' (all roots)\", \"JDK JAVA_HOME C:/Program Files/Java/jdk-21\" with changes in: \"Module 'gradle-init-project-tutorial.app.main' (all roots)\", \"Module 'gradle-init-project-tutorial.app.test' (all roots)\", \"JDK JAVA_HOME C:/Program Files/Java/jdk-21\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 1302053000,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 82036000,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 1219607800,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 71700,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-13T18:27:52.7896735Z",
+      "updatingEnd" : "2025-05-13T18:27:54.1692567Z",
+      "totalWallTimeWithPauses" : 1379583200,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 1379583200
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 4,
+      "numberOfScannedFiles" : 42931,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 2
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "JDK JAVA_HOME C:/Program Files/Java/jdk-21",
+      "numberOfScannedFiles" : 42928,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1091529000,
+      "totalOneThreadTimeWithPauses" : 1273788300,
+      "iterationAndScannersApplicationTime" : 78963500,
+      "filesCheckTime" : 1194717200,
+      "timeProcessingUpToDateFiles" : 274489400,
+      "timeUpdatingContentLessIndexes" : 11423900,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'gradle-init-project-tutorial.app.main' (all roots)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 11731900,
+      "totalOneThreadTimeWithPauses" : 17666600,
+      "iterationAndScannersApplicationTime" : 932400,
+      "filesCheckTime" : 16650600,
+      "timeProcessingUpToDateFiles" : 43700,
+      "timeUpdatingContentLessIndexes" : 124000,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 28800,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'gradle-init-project-tutorial.app.test' (all roots)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 658100,
+      "totalOneThreadTimeWithPauses" : 6209000,
+      "iterationAndScannersApplicationTime" : 952100,
+      "filesCheckTime" : 5184000,
+      "timeProcessingUpToDateFiles" : 39400,
+      "timeUpdatingContentLessIndexes" : 212800,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 42900,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'gradle-init-project-tutorial.app' (all roots)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 501900,
+      "totalOneThreadTimeWithPauses" : 4389100,
+      "iterationAndScannersApplicationTime" : 1188000,
+      "filesCheckTime" : 3056000,
+      "timeProcessingUpToDateFiles" : 143500,
+      "timeUpdatingContentLessIndexes" : 5500,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

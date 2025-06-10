@@ -1,0 +1,27 @@
+=== OS ===
+System name    : Windows
+Kernel version : 26100
+OS version     : Windows 11 Pro
+Host name      : DESKTOP-I1IVII8
+Uptime         : 186 s.
+CPU            : 12th Gen Intel(R) Core(TM) i5-12450H CPU 1 (12 cores)
+Load average   : 0.00 0.00 0.00
+
+=== MEMORY ===
+total memory :  16869134336 bytes
+used memory  :  12550340608 bytes
+total swap   :  12348030976 bytes
+used swap    :            0 bytes
+
+=== DISKS ===
+"" mounted on "C:\\" : 134642872320 / 510999572480
+   SSD, FS: "NTFS", removable: false
+
+=== NETWORK INTERFACES ===
+Беспроводная сеть:   21249643 B ↓ /    2009592 B ↑
+Сетевой мост-Microsoft Network Bridge-0000:   21334842 B ↓ /    2073296 B ↑
+vEthernet (Default Switch):          0 B ↓ /     155101 B ↑
+vEthernet (WSL (Hyper-V firewall)):       1396 B ↓ /     111240 B ↑
+Сетевой мост:   21334842 B ↓ /    2073296 B ↑
+vEthernet (Exrerrnal Network Switch):   21256854 B ↓ /    2343720 B ↑
+

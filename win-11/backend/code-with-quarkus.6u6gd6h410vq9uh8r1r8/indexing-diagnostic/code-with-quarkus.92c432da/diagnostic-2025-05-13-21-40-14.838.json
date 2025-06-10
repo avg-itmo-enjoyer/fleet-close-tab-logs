@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T18:40:14.8383258Z",
+    "os" : "Windows 11.0",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "code-with-quarkus",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"External roots from entity (geos, enchant, opentelemetry, ...; empty; empty; empty)\" with changes in: \"JDK JAVA_HOME C:/Program Files/Java/jdk-21\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : -2010200,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 17942229100,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 15055663700,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 2886352800,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 214220900,
+      "dumbModeStart" : "2025-05-13T18:39:57.4907762Z",
+      "dumbWallTimeWithPauses" : 17346870400,
+      "dumbWallTimeWithoutPauses" : 17344860200,
+      "updatingStart" : "2025-05-13T18:39:57.4907762Z",
+      "updatingEnd" : "2025-05-13T18:40:14.8376466Z",
+      "totalWallTimeWithPauses" : 17346870400,
+      "wallTimeOnPause" : 2010200,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 17344860200
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 43252,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 42901
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "JDK JAVA_HOME C:/Program Files/Java/jdk-21",
+      "numberOfScannedFiles" : 42928,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 42577,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1941563100,
+      "totalOneThreadTimeWithPauses" : 17338763500,
+      "iterationAndScannersApplicationTime" : 15039978100,
+      "filesCheckTime" : 2298663700,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 924684900,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 187246600,
+      "roots" : [ ]
+    }, {
+      "providerName" : "External roots from entity (geos, enchant, opentelemetry, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 253467600,
+      "totalOneThreadTimeWithPauses" : 603465600,
+      "iterationAndScannersApplicationTime" : 15685600,
+      "filesCheckTime" : 587689100,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 922600,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 26974300,
+      "roots" : [ ]
+    } ]
+  }
+}

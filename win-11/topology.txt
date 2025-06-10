@@ -1,0 +1,178 @@
+Endpoint Compose Preview Listening(host f8qd9s32s4hmu927jv1p)  Compose Preview Listening ProviderId(id=gvv5dt9cje3p571js4kf)
+    fleet.mercury.common.compose.ComposePreviewListeningApi fleet.mercury.common.compose.ComposePreviewListeningApi#2kae3fmceifhvqipri30
+Endpoint Debug Adapter Protocol(host f8qd9s32s4hmu927jv1p)  Debug Adapter Protocol ProviderId(id=5nfe924k5erbkt6i4aoo)
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#ej9ipnepu2s0qc0gga52
+    fleet.protocol.code.completion.CompletionApi fleet.protocol.code.completion.CompletionApi#bgik46n2li0n73q78go3
+    fleet.protocol.debug.DebugBackendApi fleet.protocol.debug.DebugBackendApi#caapnkr6an2am8kjcppn
+Endpoint Document Api(host f8qd9s32s4hmu927jv1p)  Document Api ProviderId(id=3bd67f5q0j248aeu4le9)
+    fleet.api.workspace.document.DocumentApi fleet.api.workspace.document.DocumentApi#e9n6lprptkvc1a85sp2e
+Endpoint DotnetWorkspace(host f8qd9s32s4hmu927jv1p)  DotnetWorkspace ProviderId(id=jn9q9g6kcnm4433kh546)
+    fleet.plugins.dotnet.common.api.ActiveSolutionApi fleet.plugins.dotnet.common.api.ActiveSolutionApi#hvhnb1j2mquih9geajs4
+    fleet.plugins.dotnet.common.api.DotnetBuildApi fleet.plugins.dotnet.common.api.DotnetBuildApi#adad25bfhb3n098j0td5
+    fleet.plugins.dotnet.common.api.ReSharperSettingsApi fleet.plugins.dotnet.common.api.ReSharperSettingsApi#srrblm6j8vi8b47i72e0
+Endpoint On The Fly Formatting(host f8qd9s32s4hmu927jv1p)  On The Fly Formatting ProviderId(id=v2phtvo8dpqbtrba728r)
+    fleet.protocol.code.formatter.ImplicitOnTheFlyFormatterApi fleet.protocol.code.formatter.ImplicitOnTheFlyFormatterApi#nc8n3ej4t44r1eflj8l8
+Endpoint Workspace server(host f8qd9s32s4hmu927jv1p)  Workspace server ProviderId(id=7dtkvd4q870vn39tpif0)
+    fleet.api.NetworkDisruptionApi fleet.api.NetworkDisruptionApi#uagv493p0bbgo60qg9us
+    fleet.api.UserActivityApi fleet.api.UserActivityApi#atq3bkdtuao0fdir0t0a
+    fleet.api.WorkspaceRootApi fleet.api.WorkspaceRootApi#4l8655cu1jefo7pmh1de
+    fleet.api.topology.TopologyApi fleet.reserved.TopologyApi
+    fleet.api.workspace.CodeInsightGateway fleet.api.workspace.CodeInsightGateway#re1q81cfs1ed9s4f47sq
+    fleet.api.workspace.LogCollector fleet.reserved.LogCollector
+    fleet.kernel.rebase.RemoteKernel fleet.reserved.RemoteKernel
+Endpoint Ws Formatter Proxy(host f8qd9s32s4hmu927jv1p)  Ws Formatter Proxy ProviderId(id=2sf46alh4pt39e8uuahp)
+    fleet.protocol.code.formatter.WsFormatterApi fleet.protocol.code.formatter.WsFormatterApi#d6i5eqiq5s4rsk9b7gm9
+Endpoint debug(host f8qd9s32s4hmu927jv1p)  debug ProviderId(id=4bsgalc6onke4hdppu3d)
+    fleet.common.debug.DebugWorkspaceApi fleet.common.debug.DebugWorkspaceApi#hlqtovb36pl8qgpefu0s
+Endpoint dockerPlugin(host f8qd9s32s4hmu927jv1p)  dockerPlugin ProviderId(id=ruiv5c5dij82u15khe1u)
+    fleet.docker.common.progress.DockerBuildProgressApi fleet.docker.common.progress.DockerBuildProgressApi#kdphhfuhhpm54sv00nhc
+    fleet.docker.protocol.DockerWorkerStarter fleet.docker.protocol.DockerWorkerStarter#rg80ml28qu2kd6o17qj2
+Endpoint fsdaemon(host f8qd9s32s4hmu927jv1p)  fsdaemon ProviderId(id=teugsd5rf96vj39qpe1t)
+    fleet.api.ArchiveApi fleet.api.ArchiveApi#ua7hjjw3cjz6ggcltnjl
+    fleet.api.CleanupApi fleet.api.CleanupApi#6ojbwwz3t62cipe3hmj3
+    fleet.api.DiagnosticsApi fleet.api.DiagnosticsApi#scfdtuplwnpwqkkoxgak
+    fleet.api.DownloadApi fleet.api.DownloadApi#p4phurirgkl2fg5hqysx
+    fleet.api.ExecApi fleet.api.ExecApi#xrw5smgosh5fhfkdudti
+    fleet.api.FindApi fleet.api.FindApi#5valfbh6jcowjpos7tip
+    fleet.api.FsApi fleet.api.FsApi#qq5ezsuzgtfxjkgnx7ge
+    fleet.api.HostApi fleet.api.HostApi#cv3ki3dofp66w5d5xehc
+    fleet.api.ProjectReportApi fleet.api.ProjectReportApi#e6ytuqxztoume3xfuajk
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#2pgh5rmrboplyowxohut
+    fleet.api.RefreshApi fleet.api.RefreshApi#oih32punpdw2aq33dglp
+    fleet.api.ScanApi fleet.api.ScanApi#ukdo5vw3tl7eh6z2me3a
+    fleet.api.SyntheticWatchApi fleet.api.SyntheticWatchApi#yvoyf3x5m6vtxt24mueu
+    fleet.api.TCPSocketApi fleet.api.TCPSocketApi#3cvktzqxlow2m55w7hyp
+    fleet.api.TextReplaceApi fleet.api.TextReplaceApi#nqt7svqkfmrar76olhr4
+    fleet.api.UnixSocketApi fleet.api.UnixSocketApi#i42l4frmfoxii3ixysvf
+    fleet.api.WatchApi fleet.api.WatchApi#iifqfnrdcjlbvuiuqnln
+    fleet.api.workspace.LogCollector fleet.api.workspace.LogCollector#okuw4ezkljykszmpn2oa
+    fleet.git.protocol.GitHostApi fleet.git.protocol.GitHostApi#qudptwyprjnrj4masths
+    fleet.plugins.misc.common.workspace.FsdErrorReportingApi fleet.plugins.misc.common.workspace.FsdErrorReportingApi#jxb2iksdid23seusykxe
+    fleet.protocol.run.AlacrittyApi fleet.protocol.run.AlacrittyApi#f32odq37ywjfwgl2xr3v
+    fleet.test.fsd.FeaturesApi fleet.test.fsd.FeaturesApi#jqlewcx5qewv4vplnig4
+    fleet.workspace.lrp.LrpApi fleet.workspace.lrp.LrpApi#eoyabjzlh33kysywrhc2
+    fleet.workspace.lrp.LrpHookApi fleet.workspace.lrp.LrpHookApi#gn2jyzoqnct4xmirohau
+Endpoint fsdaemon(local)(host f8qd9s32s4hmu927jv1p-local)  fsdaemon ProviderId(id=7klc4ih4umifc3tpceip)
+    fleet.api.ArchiveApi fleet.api.ArchiveApi#yxnxcwekd3rvagdo3nbj
+    fleet.api.DownloadApi fleet.api.DownloadApi#ut7dver4gxnp3ggrfy37
+    fleet.api.ExecApi fleet.api.ExecApi#kdb6magcalj4g7a4k4ft
+    fleet.api.FsApi fleet.api.FsApi#5uhnbnjbq5mxfnyakbyj
+    fleet.api.SyntheticWatchApi fleet.api.SyntheticWatchApi#zxcvqpvd3i3totw3buoq
+    fleet.api.TCPSocketApi fleet.api.TCPSocketApi#qp6bnxb23oqxr2ric6st
+    fleet.api.UnixSocketApi fleet.api.UnixSocketApi#goccn6hxwflyvxb3wmxm
+    fleet.api.WatchApi fleet.api.WatchApi#tydiqih4tftnrizglbkv
+    fleet.api.workspace.LogCollector fleet.api.workspace.LogCollector#gzln5zjrxp2w4w7vrvfi
+    fleet.test.fsd.FeaturesApi fleet.test.fsd.FeaturesApi#ouidwqyz3lgta76ctpxn
+Endpoint git lock api(host f8qd9s32s4hmu927jv1p)  git lock api ProviderId(id=8m3b80dketjkr0k63q4m)
+    fleet.git.protocol.GitLockApi fleet.git.protocol.GitLockApi#tcpq5aas0puvjs9n3c2a
+Endpoint global undo(host f8qd9s32s4hmu927jv1p)  global undo ProviderId(id=lua4ffssg9omq2v5vp3r)
+    fleet.api.workspace.document.ContentStorageApi fleet.api.workspace.document.ContentStorageApi#l5nqjjhpeqpofgba3rrm
+    fleet.api.workspace.document.UndoApi fleet.api.workspace.document.UndoApi#jebi83d1kbnvskfp0gun
+Endpoint intellij(host f8qd9s32s4hmu927jv1p)  fleet.devkit.backend ProviderId(id=fleet.devkit.backend#bm3kijpbl7k7qpfuum3i)
+    fleet.plugins.devkit.protocol.InternalInspectionsApi fleet.plugins.devkit.protocol.InternalInspectionsApi#m8qrkdtjsuf86av8qg2g
+  fleet.backend.amper ProviderId(id=fleet.backend.amper#5j0jgom086mht6psoms4)
+    fleet.plugins.amper.protocol.AmperApi fleet.plugins.amper.protocol.AmperApi#9mjffij3tmilngaheilt
+  fleet.backend.maven ProviderId(id=fleet.backend.maven#86fr00c7nq1g37gm51ar)
+    fleet.maven.protocol.MavenApi fleet.maven.protocol.MavenApi#42t36laaeh4m5ijftv56
+  fleet.backend.go ProviderId(id=fleet.backend.go#2bhr46166ktfe28ugamd)
+    fleet.go.protocol.FleetGoApi fleet.go.protocol.FleetGoApi#lfd2eckib3qkq00qmpuf
+  fleet.backend.gradle ProviderId(id=fleet.backend.gradle#s3l4li6qgujhqn0vromu)
+    fleet.gradle.protocol.GradleApi fleet.gradle.protocol.GradleApi#qqun6itna8206jssohpg
+  fleet.backend.php ProviderId(id=fleet.backend.php#et211ssr34ufopkq6ppu)
+    fleet.php.protocol.PhpApi fleet.php.protocol.PhpApi#nt41da9975c525s7ju0f
+  fleet.backend.javascript ProviderId(id=fleet.backend.javascript#98h14g5casq69cj0gmvo)
+    fleet.javascript.protocol.FleetJSApi fleet.javascript.protocol.FleetJSApi#2g8pi4rhpm47r16ri974
+  editorconfig ProviderId(id=editorconfig#eslm56951rk9me6gavf3)
+    fleet.api.EditorConfigApi fleet.api.EditorConfigApi#ptkluolf68q5go10v149
+  Fleet Python ProviderId(id=Fleet Python#6mscpab6iv9mne2csquj)
+    fleet.python.protocol.PythonApi fleet.python.protocol.PythonApi#6mimggeiv07pq2hsq4q4
+  fleet.backend.kotlin ProviderId(id=fleet.backend.kotlin#3k15ld285e6f1r61c5eq)
+    fleet.kotlin.protocol.KotlinJpsApi fleet.kotlin.protocol.KotlinJpsApi#llfvqooml1bp0qffpbba
+    fleet.kotlin.protocol.KotlinStacktraceResolverApi fleet.kotlin.protocol.KotlinStacktraceResolverApi#hv3qdj6iustrr9v9i932
+  fleet.backend.mercury ProviderId(id=fleet.backend.mercury#cplokuuk4vd5cumg2mol)
+    fleet.mercury.protocol.AndroidProjectModelApi fleet.mercury.protocol.AndroidProjectModelApi#fse4ube3ln44qom1gsu0
+    fleet.mercury.protocol.MercuryAndroidApi fleet.mercury.protocol.MercuryAndroidApi#oob7oucj34dmbfqbgv5i
+    fleet.mercury.protocol.MercuryAndroidDevicesApi fleet.mercury.protocol.MercuryAndroidDevicesApi#btgl1h6vjde8eqdi0ruv
+    fleet.mercury.protocol.MercuryAndroidPreviewApi fleet.mercury.protocol.MercuryAndroidPreviewApi#m7ijn25m3uot1766h8qc
+    fleet.mercury.protocol.MercuryAndroidResourcesApi fleet.mercury.protocol.MercuryAndroidResourcesApi#9ft0stomm5vej6rqei6g
+    fleet.mercury.protocol.MercuryAvdManagerApi fleet.mercury.protocol.MercuryAvdManagerApi#ih3u32qplpucbg4puv2l
+    fleet.mercury.protocol.MercuryBuildApi fleet.mercury.protocol.MercuryBuildApi#r70gq21gih9idhtehq5v
+    fleet.mercury.protocol.MercuryLogcatApi fleet.mercury.protocol.MercuryLogcatApi#ja305ppjuf9l6u0c6vlh
+    fleet.mercury.protocol.MercuryRunApi fleet.mercury.protocol.MercuryRunApi#r52875kprm6frflc0jcj
+    fleet.mercury.protocol.MercuryRunDestinationApi fleet.mercury.protocol.MercuryRunDestinationApi#0o1545vjdglmrcrv5irv
+    fleet.mercury.protocol.MercurySimulatorsApi fleet.mercury.protocol.MercurySimulatorsApi#pq1c1k6mef0jjo6v1uto
+    fleet.mercury.protocol.android.AndroidSdkManagementApi fleet.mercury.protocol.android.AndroidSdkManagementApi#9u5133rnmn9364hn037m
+    fleet.mercury.protocol.compose.ComposeResourcesApi fleet.mercury.protocol.compose.ComposeResourcesApi#9hu82lopeg5e97ek7fvn
+    fleet.mercury.protocol.kdoctor.KdoctorApi fleet.mercury.protocol.kdoctor.KdoctorApi#d4jkaq5mc67rqu47rahk
+  IntellijFS ProviderId(id=IntellijFS#1t1cangphv4t8sej2ca0)
+    fleet.api.FsApi fleet.api.FsApi#pajfhnfh1e38ea5amkvt
+    fleet.api.WatchApi fleet.api.WatchApi#7oltdvv85bldndip4gvv
+  fleet.backend.spring.boot ProviderId(id=fleet.backend.spring.boot#j26fhbqvncjghp0hsjd0)
+    fleet.spring.boot.protocol.SpringBootApi fleet.spring.boot.protocol.SpringBootApi#c4eu9fprvg5lft0qq5ed
+  IntellijApplication ProviderId(id=IntellijApplication#7l0gooeuu402cv55b7qk)
+    fleet.api.AutoImportApi fleet.api.AutoImportApi#t2j8akj41djt7ohv18b8
+    fleet.api.BackendServiceApi fleet.api.BackendServiceApi#eq3thcnsl1f5hoke6lkf
+    fleet.api.BuildProgressApi fleet.api.BuildProgressApi#3bq5vjr0s1e7g039mcqc
+    fleet.api.DiagnosticsApi fleet.api.DiagnosticsApi#h6616oo729mh7f4jo33t
+    fleet.api.FusControllerApi fleet.api.FusControllerApi#c2ia372s9626q1ha2qvr
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#r6pdoeusvfa6fvpcll2g
+    fleet.plugins.smartMode.protocol.BackendIndexingStatusApi fleet.plugins.smartMode.protocol.BackendIndexingStatusApi#8hh79gkq13sea6ig2o7a
+    fleet.plugins.smartMode.protocol.BackendPluginsApi fleet.plugins.smartMode.protocol.BackendPluginsApi#p57np4ucvu33qhqk8q0a
+    fleet.plugins.smartMode.protocol.ExternalLibrariesApi fleet.plugins.smartMode.protocol.ExternalLibrariesApi#185ecosigulf2ldmvq4g
+    fleet.protocol.code.completion.CompletionApi fleet.protocol.code.completion.CompletionApi#4gfd2kvh72fsajgij13o
+    fleet.protocol.code.daemon.DaemonApi fleet.protocol.code.daemon.DaemonApi#201r4lqaqj23i7rncglk
+    fleet.protocol.code.documentation.DocumentationApi fleet.protocol.code.documentation.DocumentationApi#8cdu7mfgee40cri6qcvj
+    fleet.protocol.code.elementInfo.ElementInfoApi fleet.protocol.code.elementInfo.ElementInfoApi#67vmt43ikdbn4ben3ut8
+    fleet.protocol.code.extract.ExtractApi fleet.protocol.code.extract.ExtractApi#je9qo5u2vk148785u2ic
+    fleet.protocol.code.extract.InlineApi fleet.protocol.code.extract.InlineApi#ru897jen7frdugd0qdrr
+    fleet.protocol.code.formatter.FormatterApi fleet.protocol.code.formatter.FormatterApi#83ilocnvkrmj8j2ijjf8
+    fleet.protocol.code.navigation.NavigationApi fleet.protocol.code.navigation.NavigationApi#umddrb0rig6vjc7g695v
+    fleet.protocol.code.navigation.TypeHierarchyApi fleet.protocol.code.navigation.TypeHierarchyApi#6ne04uium6pnpafqmsr3
+    fleet.protocol.code.packages.PackageApi fleet.protocol.code.packages.PackageApi#c053f7s9j2gqbl82oa6m
+    fleet.protocol.code.parameterInfo.ParameterInfoApi fleet.protocol.code.parameterInfo.ParameterInfoApi#8fvt6hr6ue5bvt9483q7
+    fleet.protocol.code.rename.FileRenameMoveApi fleet.protocol.code.rename.FileRenameMoveApi#2ng3nap90ph6eubm16u6
+    fleet.protocol.code.rename.RenameApi fleet.protocol.code.rename.RenameApi#ja3dmjsi6fl68pae4mri
+    fleet.protocol.code.snippets.SnippetsApi fleet.protocol.code.snippets.SnippetsApi#gosk8tafu305cph89s2l
+    fleet.protocol.code.symbols.FindSymbolApi fleet.protocol.code.symbols.FindSymbolApi#6es5dblv0miiv4scmq0r
+    fleet.protocol.debug.DebugBackendApi fleet.protocol.debug.DebugBackendApi#i7k0bb7s25vj9vfkua55
+    fleet.protocol.run.RunAnythingApi fleet.protocol.run.RunAnythingApi#vccqb88nvrdbgougvs2u
+    fleet.protocol.run.RunTaskCollectorApi fleet.protocol.run.RunTaskCollectorApi#nbt9tb4fpf3o0c010082
+    fleet.protocol.run.v2.ExternalRunTaskApi fleet.protocol.run.v2.ExternalRunTaskApi#90n9mt349tot8bj5tmik
+    fleet.protocol.run.v2.RunTaskProviderApi fleet.protocol.run.v2.RunTaskProviderApi#7ddpt7u3nokiv12rpo09
+  fleet.backend.java ProviderId(id=fleet.backend.java#f0969es11ekp1hl7h7vd)
+    fleet.java.protocol.FleetJdkFinderApi fleet.java.protocol.FleetJdkFinderApi#oi2j5sv7lerd1lc72muk
+    fleet.java.protocol.HotswapApi fleet.java.protocol.HotswapApi#na9rsq9lla1lknadggjg
+    fleet.java.protocol.JavaStacktraceResolverApi fleet.java.protocol.JavaStacktraceResolverApi#k4dhctvgp3i4e6tin1e6
+    fleet.java.protocol.JpsApi fleet.java.protocol.JpsApi#3vq0i484h6pn3r665b2q
+    fleet.java.protocol.JvmProjectModelApi fleet.java.protocol.JvmProjectModelApi#4locrp6bsc7nl2tofrkv
+  org.jetbrains.compose.desktop.ide ProviderId(id=org.jetbrains.compose.desktop.ide#37rcmbdp3bi4i9bmobt5)
+    fleet.mercury.protocol.compose.RpcCoupledPreviewBackendApi fleet.mercury.protocol.compose.RpcCoupledPreviewBackendApi#csm5olldctj93i37qfe3
+Endpoint localAiInspectionsDaemon(host f8qd9s32s4hmu927jv1p-local)  localAiInspectionsDaemon ProviderId(id=e8fmlrv962l6pbvqo6mg)
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#uit0k2qhuc6cihbab51a
+    fleet.protocol.code.daemon.DaemonApi fleet.protocol.code.daemon.DaemonApi#vulaesjpoat62s7vodlh
+Endpoint localAiSimpleDaemon(host f8qd9s32s4hmu927jv1p-local)  localAiSimpleDaemon ProviderId(id=tpbijg3g37r4ie06prhk)
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#p15k1ki2cfaqqbgupn9r
+    fleet.protocol.code.daemon.DaemonApi fleet.protocol.code.daemon.DaemonApi#211chh1igec25skd5rqi
+Endpoint localConfigSchemaProvider(host f8qd9s32s4hmu927jv1p-local)  localConfigSchemaProvider ProviderId(id=gfegl9mftf9msscun1mp)
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#qbl9tv362bb6esvc8sau
+    fleet.protocol.code.completion.CompletionApi fleet.protocol.code.completion.CompletionApi#t18e9ekvac9dvbaerprj
+    fleet.protocol.code.daemon.DaemonApi fleet.protocol.code.daemon.DaemonApi#4iv2rtkl9aucij0emngp
+    fleet.protocol.code.documentation.DocumentationApi fleet.protocol.code.documentation.DocumentationApi#lm8b7s6b12ljep9k8s91
+Endpoint localGrazie(host f8qd9s32s4hmu927jv1p-local)  localGrazie ProviderId(id=vbbhulan9j1g1ph7ar4p)
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#vg4vn96v67s8t78higro
+    fleet.protocol.code.daemon.DaemonApi fleet.protocol.code.daemon.DaemonApi#3a54m18ot2djaifu0dcf
+Endpoint localSpellchecker(host f8qd9s32s4hmu927jv1p-local)  localSpellchecker ProviderId(id=7b10u3r1apa11j29cvpj)
+    fleet.api.ProjectRootsHookApi fleet.api.ProjectRootsHookApi#6t4livm7ibdjbmasn4oi
+    fleet.protocol.code.daemon.DaemonApi fleet.protocol.code.daemon.DaemonApi#fhi9gnc7io2sg7lepbv3
+Endpoint run(host f8qd9s32s4hmu927jv1p)  run ProviderId(id=isej2eqd1mpoc1a4g461)
+    fleet.common.run.api.internal.ExecPtyWithSharedOutputApi fleet.common.run.api.internal.ExecPtyWithSharedOutputApi#r38j2dgj7e00p84rdisf
+    fleet.common.run.api.v2.internal.AttachApiV2 fleet.common.run.api.v2.internal.AttachApiV2#tbq8s0960ld3v7drf7tl
+    fleet.common.run.api.v2.internal.LauncherApi fleet.common.run.api.v2.internal.LauncherApi#78p523bqm96ouigm1e5j
+Endpoint run(host f8qd9s32s4hmu927jv1p)  run ProviderId(id=lope1el42m2evsf172ir)
+    fleet.common.run.api.AttachApi fleet.common.run.api.AttachApi#bf1220q47ho8bpd4jojj
+    fleet.common.run.impl.ssh.SshAgentApi fleet.common.run.impl.ssh.SshAgentApi#drebken7ql3b4vegoluh
+    fleet.protocol.run.RunAnythingApi fleet.protocol.run.RunAnythingApi#p37l88ljv082lr5c7crn
+Endpoint workspace places api(host f8qd9s32s4hmu927jv1p)  workspace places api ProviderId(id=4906rugu5nacltr4vhk1)
+    fleet.common.code.navigation.WorkspaceNavigationApi fleet.common.code.navigation.WorkspaceNavigationApi#c7s1obsn9lov387fi5na
+Endpoint workspace testing api(host f8qd9s32s4hmu927jv1p)  workspace testing api ProviderId(id=gdiaa432q60v8qedd44s)
+    fleet.plugins.devkit.protocol.TestingApi fleet.plugins.devkit.protocol.TestingApi#0hqlp2jfmnnrulv8kg4k
