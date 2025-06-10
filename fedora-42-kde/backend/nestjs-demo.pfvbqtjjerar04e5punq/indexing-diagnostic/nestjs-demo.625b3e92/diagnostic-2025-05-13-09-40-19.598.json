@@ -1,0 +1,51 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T06:40:19.598768459Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "nestjs-demo",
+    "times" : {
+      "scanningIds" : [ ],
+      "contentLoadingVisibleTime" : 0,
+      "retrievingChangedDuringIndexingFilesTime" : 22681,
+      "separateApplyingIndexesVisibleTime" : 0,
+      "updatingStart" : "2025-05-13T06:40:19.58376757Z",
+      "updatingEnd" : "2025-05-13T06:40:19.584307153Z",
+      "totalWallTimeWithPauses" : 539583,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "dumbWallTimeWithPauses" : 539583,
+      "dumbWallTimeWithoutPauses" : 539583,
+      "dumbModeStart" : "2025-05-13T06:40:19.58376757Z",
+      "totalWallTimeWithoutPauses" : 539583
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 0,
+      "numberOfNothingToWriteFiles" : 0
+    },
+    "totalStatsPerFileType" : [ ],
+    "totalStatsPerBaseLanguage" : [ ],
+    "totalStatsPerIndexer" : [ ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 22681
+    },
+    "fileProviderStatistics" : [ ],
+    "visibleTimeToAllThreadTimeRatio" : 0.0
+  }
+}

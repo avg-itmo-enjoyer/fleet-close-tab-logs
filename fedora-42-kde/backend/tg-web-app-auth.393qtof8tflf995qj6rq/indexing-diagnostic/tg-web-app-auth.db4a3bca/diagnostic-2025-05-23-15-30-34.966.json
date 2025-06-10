@@ -1,0 +1,64 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-23T12:30:34.966598775Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "tg-web-app-auth",
+    "times" : {
+      "scanningReason" : "changes in: \"Module 'tg-web-app-auth-fleet' (tg-web-app-auth)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 3,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 33331012,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 607602,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 31505098,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 114223,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-23T12:30:34.721203363Z",
+      "updatingEnd" : "2025-05-23T12:30:34.768649726Z",
+      "totalWallTimeWithPauses" : 47446363,
+      "wallTimeOnPause" : 257143,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 47189220
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 28,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 4
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Module 'tg-web-app-auth-fleet' (tg-web-app-auth)",
+      "numberOfScannedFiles" : 28,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 4,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 14179461,
+      "totalOneThreadTimeWithPauses" : 33331012,
+      "iterationAndScannersApplicationTime" : 607602,
+      "filesCheckTime" : 31505098,
+      "timeProcessingUpToDateFiles" : 1024179,
+      "timeUpdatingContentLessIndexes" : 48662,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 114223,
+      "roots" : [ ]
+    } ]
+  }
+}

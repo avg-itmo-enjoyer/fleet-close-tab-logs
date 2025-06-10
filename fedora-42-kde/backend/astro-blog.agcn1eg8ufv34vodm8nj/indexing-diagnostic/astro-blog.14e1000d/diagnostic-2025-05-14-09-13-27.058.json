@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-14T06:13:27.059096342Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "astro-blog",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'astro-blog-fleet' (all roots)\" with changes in: \"External roots from entity (Phar, mysql_xdevapi, tokenizer, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 58744940,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 3386033,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 55072512,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 18619863,
+      "dumbModeStart" : "2025-05-14T06:13:26.528675385Z",
+      "dumbWallTimeWithPauses" : 78155806,
+      "dumbWallTimeWithoutPauses" : 78155806,
+      "updatingStart" : "2025-05-14T06:13:26.526995514Z",
+      "updatingEnd" : "2025-05-14T06:13:26.606831191Z",
+      "totalWallTimeWithPauses" : 79835677,
+      "wallTimeOnPause" : 201998,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 79633679
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 338,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 338
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (Phar, mysql_xdevapi, tokenizer, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 41689409,
+      "totalOneThreadTimeWithPauses" : 50025775,
+      "iterationAndScannersApplicationTime" : 2518703,
+      "filesCheckTime" : 47450326,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 310023,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 18250163,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'astro-blog-fleet' (all roots)",
+      "numberOfScannedFiles" : 14,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 14,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 4753132,
+      "totalOneThreadTimeWithPauses" : 8719165,
+      "iterationAndScannersApplicationTime" : 867330,
+      "filesCheckTime" : 7622186,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 47769,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 369700,
+      "roots" : [ ]
+    } ]
+  }
+}

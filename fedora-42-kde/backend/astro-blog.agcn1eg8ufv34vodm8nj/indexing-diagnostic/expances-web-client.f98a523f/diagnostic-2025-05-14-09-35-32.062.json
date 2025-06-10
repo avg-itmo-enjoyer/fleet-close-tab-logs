@@ -1,0 +1,95 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-14T06:35:32.063288449Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "expances-web-client",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)\" with changes in: \"Module 'expances-web-client-fleet' (all roots)\" with changes in: \"External roots from entity (Phar, mysql_xdevapi, tokenizer, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 452158591,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 9847587,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 441956463,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 4434917,
+      "dumbModeStart" : "2025-05-14T06:35:31.536252652Z",
+      "dumbWallTimeWithPauses" : 451642726,
+      "dumbWallTimeWithoutPauses" : 451642726,
+      "updatingStart" : "2025-05-14T06:35:31.53594188Z",
+      "updatingEnd" : "2025-05-14T06:35:31.987895378Z",
+      "totalWallTimeWithPauses" : 451953498,
+      "wallTimeOnPause" : 679614,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 451273884
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 355,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 21
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (Phar, mysql_xdevapi, tokenizer, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 209463155,
+      "totalOneThreadTimeWithPauses" : 424638416,
+      "iterationAndScannersApplicationTime" : 8193554,
+      "filesCheckTime" : 416382623,
+      "timeProcessingUpToDateFiles" : 75495062,
+      "timeUpdatingContentLessIndexes" : 386724,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'expances-web-client-fleet' (all roots)",
+      "numberOfScannedFiles" : 23,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 21,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 17240339,
+      "totalOneThreadTimeWithPauses" : 23724060,
+      "iterationAndScannersApplicationTime" : 1553683,
+      "filesCheckTime" : 21950896,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 111254,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 4434917,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 3004890,
+      "totalOneThreadTimeWithPauses" : 3796115,
+      "iterationAndScannersApplicationTime" : 100350,
+      "filesCheckTime" : 3622944,
+      "timeProcessingUpToDateFiles" : 505276,
+      "timeUpdatingContentLessIndexes" : 25137,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-18T12:38:31.554757572Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "test-fleet-capabilities",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'test-fleet-capabilities-fleet' (all roots)\" with changes in: \"External roots from entity (fann, ldap, xmlrpc, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 123608832,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 7271618,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 115971012,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 38015745,
+      "dumbModeStart" : "2025-05-18T12:38:30.59974612Z",
+      "dumbWallTimeWithPauses" : 127086988,
+      "dumbWallTimeWithoutPauses" : 127086988,
+      "updatingStart" : "2025-05-18T12:38:30.599431561Z",
+      "updatingEnd" : "2025-05-18T12:38:30.726833108Z",
+      "totalWallTimeWithPauses" : 127401547,
+      "wallTimeOnPause" : 512717,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 126888830
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 325,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 325
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (fann, ldap, xmlrpc, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 101357955,
+      "totalOneThreadTimeWithPauses" : 119675430,
+      "iterationAndScannersApplicationTime" : 6585277,
+      "filesCheckTime" : 112928512,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 886047,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 37964702,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'test-fleet-capabilities-fleet' (all roots)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1399944,
+      "totalOneThreadTimeWithPauses" : 3933402,
+      "iterationAndScannersApplicationTime" : 686341,
+      "filesCheckTime" : 3042500,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 49153,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 51043,
+      "roots" : [ ]
+    } ]
+  }
+}

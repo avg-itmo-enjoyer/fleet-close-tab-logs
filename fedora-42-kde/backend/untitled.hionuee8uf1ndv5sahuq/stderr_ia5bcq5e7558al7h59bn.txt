@@ -1,0 +1,37 @@
+OpenJDK 64-Bit Server VM warning: Ignoring option --illegal-access=permit; support was removed in 17.0
+WARNING: package com.apple.laf not in java.desktop
+WARNING: package com.apple.eawt.event not in java.desktop
+WARNING: package com.apple.eawt not in java.desktop
+SLF4J(E): A service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: Provider fleet.util.logging.slf4j.FleetSlf4jServiceProvider could not be instantiated
+2025-06-09 05:58:43,798 [    388]   WARN - #c.i.i.p.PluginManager - Problems found loading plugins:
+  IDE Neutral Cocoa Support (id=com.jetbrains.cocoa, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.16528.tar.zst_1b2a98ac74e3cddd1f995d789dbed99c/FleetBackend-252.16528/plugins/cidr-cocoa-plugin): Requires plugin 'com.intellij.swift.lang' to be enabled
+  Swift Doc (id=com.intellij.swift.doc, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.16528.tar.zst_1b2a98ac74e3cddd1f995d789dbed99c/FleetBackend-252.16528/plugins/swift-doc-plugin): Requires plugin 'com.intellij.swift.lang' to be enabled
+  Fleet Mercury: Enable Dependencies macOS (id=fleet.backend.mercury.depEnabler.macos, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.16528.tar.zst_1b2a98ac74e3cddd1f995d789dbed99c/FleetBackend-252.16528/plugins/fleet-plugins-mercury-backend-depEnabler-macos): Plugin 'Fleet Mercury: Enable Dependencies macOS' requires plugin 'com.intellij.modules.os.mac' to be installed
+2025-06-09 05:58:44,240 [    830]   WARN - #c.i.d.GuiPluginConflictReporter - One should provide at least two conflicting classes to report
+2025-06-09 05:58:44,821 [   1411]   WARN - #fleet.backend.plugins.BackendPluginsInstaller - Unknown or rejected plugins: [fleet.backend.mercury.macos, fleet.backend.spring.data, org.jetbrains.plugins.ruby, com.intellij.swift.doc, com.jetbrains.cocoa, fleet.backend.mercury.depEnabler.macos, com.intellij.spring.ws, com.intellij.swift.lang, com.intellij.cidr.completion.ml.ranking, fleet.backend.mercury.android]
+2025-06-09 05:58:44,942 [   1532]   WARN - fleet.backend.FleetStarter - Restarting to complete installation...
+2025-06-09 05:58:45,661 [   2251]   WARN - #c.i.s.ComponentManagerImpl - com.intellij.internal.statistic.eventLog.EventLogListenersManager is initialized during dispose
+java.lang.IllegalStateException: com.intellij.internal.statistic.eventLog.EventLogListenersManager is initialized during dispose
+	at com.intellij.serviceContainer.ComponentManagerImpl.doGetService(ComponentManagerImpl.kt:754)
+	at com.intellij.serviceContainer.ComponentManagerImpl.getService(ComponentManagerImpl.kt:701)
+	at com.intellij.internal.statistic.eventLog.StatisticsFileEventLogger.logLastEvent(StatisticsFileEventLogger.kt:123)
+	at com.intellij.internal.statistic.eventLog.StatisticsFileEventLogger.flush$lambda$9(StatisticsFileEventLogger.kt:153)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at com.intellij.util.concurrency.ChildContext$runInChildContext$1.invoke(propagation.kt:135)
+	at com.intellij.util.concurrency.ChildContext$runInChildContext$1.invoke(propagation.kt:135)
+	at com.intellij.util.concurrency.ChildContext.runInChildContext(propagation.kt:141)
+	at com.intellij.util.concurrency.ChildContext.runInChildContext(propagation.kt:135)
+	at com.intellij.util.concurrency.ContextRunnable.run(ContextRunnable.java:27)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.doRun(BoundedTaskExecutor.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor.access$200(BoundedTaskExecutor.java:30)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.executeFirstTaskAndHelpQueue(BoundedTaskExecutor.java:227)
+	at com.intellij.util.ConcurrencyUtil.runUnderThreadName(ConcurrencyUtil.java:249)
+	at com.intellij.util.concurrency.BoundedTaskExecutor$1.run(BoundedTaskExecutor.java:212)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:735)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1$1.run(Executors.java:732)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.util.concurrent.Executors$PrivilegedThreadFactory$1.run(Executors.java:732)
+	at java.base/java.lang.Thread.run(Thread.java:1583)

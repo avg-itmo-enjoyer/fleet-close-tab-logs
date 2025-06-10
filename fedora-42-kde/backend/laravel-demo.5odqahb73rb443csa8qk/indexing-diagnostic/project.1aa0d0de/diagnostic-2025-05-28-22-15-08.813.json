@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-28T19:15:08.813893198Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'project-fleet' (tests)\" with changes in: \"External roots from entity (empty; empty; dist; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 8,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 5783894,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 257443,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 5386763,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 145112,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-28T19:15:08.805501186Z",
+      "updatingEnd" : "2025-05-28T19:15:08.813302703Z",
+      "totalWallTimeWithPauses" : 7801517,
+      "wallTimeOnPause" : 246606,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 7554911
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 7,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 3
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Module 'project-fleet' (tests)",
+      "numberOfScannedFiles" : 3,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 694837,
+      "totalOneThreadTimeWithPauses" : 3639002,
+      "iterationAndScannersApplicationTime" : 118334,
+      "filesCheckTime" : 3447366,
+      "timeProcessingUpToDateFiles" : 138070,
+      "timeUpdatingContentLessIndexes" : 52230,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "External roots from entity (empty; empty; dist; empty)",
+      "numberOfScannedFiles" : 4,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 3,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1541046,
+      "totalOneThreadTimeWithPauses" : 2144892,
+      "iterationAndScannersApplicationTime" : 139109,
+      "filesCheckTime" : 1939397,
+      "timeProcessingUpToDateFiles" : 34937,
+      "timeUpdatingContentLessIndexes" : 540795,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 145112,
+      "roots" : [ ]
+    } ]
+  }
+}

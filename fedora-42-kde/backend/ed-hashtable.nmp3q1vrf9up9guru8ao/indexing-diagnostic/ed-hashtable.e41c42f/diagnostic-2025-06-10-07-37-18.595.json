@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.16528",
+    "buildDate" : "2025-05-20T05:20:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-10T04:37:18.595781536Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "ed-hashtable",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'ed-hashtable-fleet' (all roots)\" with changes in: \"External roots from entity (gnupg, xlswriter, mbstring, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 84782909,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4168305,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 80406575,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 28855610,
+      "dumbModeStart" : "2025-06-10T04:37:18.075989976Z",
+      "dumbWallTimeWithPauses" : 103940628,
+      "dumbWallTimeWithoutPauses" : 103940628,
+      "updatingStart" : "2025-06-10T04:37:18.075700831Z",
+      "updatingEnd" : "2025-06-10T04:37:18.179930604Z",
+      "totalWallTimeWithPauses" : 104229773,
+      "wallTimeOnPause" : 268112,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 103961661
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 327,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 326
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (gnupg, xlswriter, mbstring, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 70273180,
+      "totalOneThreadTimeWithPauses" : 82438830,
+      "iterationAndScannersApplicationTime" : 3617439,
+      "filesCheckTime" : 78755613,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 614079,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 28815179,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'ed-hashtable-fleet' (all roots)",
+      "numberOfScannedFiles" : 3,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 2,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 617791,
+      "totalOneThreadTimeWithPauses" : 2344079,
+      "iterationAndScannersApplicationTime" : 550866,
+      "filesCheckTime" : 1650962,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 18592,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 40431,
+      "roots" : [ ]
+    } ]
+  }
+}

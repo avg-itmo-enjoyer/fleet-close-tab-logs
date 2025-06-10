@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T06:46:08.792787804Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "empty-node-pnpm-project",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)\" with changes in: \"External roots from entity (geoip, odbc, recode, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 59266184,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 3294430,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 55873054,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-13T06:46:08.40676569Z",
+      "updatingEnd" : "2025-05-13T06:46:08.471896315Z",
+      "totalWallTimeWithPauses" : 65130625,
+      "wallTimeOnPause" : 239169,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 64891456
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 332,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (geoip, odbc, recode, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 47749306,
+      "totalOneThreadTimeWithPauses" : 56211051,
+      "iterationAndScannersApplicationTime" : 3221953,
+      "filesCheckTime" : 52949652,
+      "timeProcessingUpToDateFiles" : 23146125,
+      "timeUpdatingContentLessIndexes" : 122199,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 2570508,
+      "totalOneThreadTimeWithPauses" : 3055133,
+      "iterationAndScannersApplicationTime" : 72477,
+      "filesCheckTime" : 2923402,
+      "timeProcessingUpToDateFiles" : 299566,
+      "timeUpdatingContentLessIndexes" : 11557,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

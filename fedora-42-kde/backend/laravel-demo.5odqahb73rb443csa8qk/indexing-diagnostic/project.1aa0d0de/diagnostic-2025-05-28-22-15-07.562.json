@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-28T19:15:07.562818931Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'project-fleet' (all roots)\" with changes in: \"External roots from entity (ZendUtils, gmagick, igbinary, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 6,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 775955659,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 95568305,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 680040097,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbModeStart" : "2025-05-28T19:15:06.913387856Z",
+      "dumbWallTimeWithPauses" : 648282679,
+      "dumbWallTimeWithoutPauses" : 648282679,
+      "updatingStart" : "2025-05-28T19:15:06.913198918Z",
+      "updatingEnd" : "2025-05-28T19:15:07.561670535Z",
+      "totalWallTimeWithPauses" : 648471617,
+      "wallTimeOnPause" : 1106567,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 647365050
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 8489,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Module 'project-fleet' (all roots)",
+      "numberOfScannedFiles" : 8165,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 466038229,
+      "totalOneThreadTimeWithPauses" : 643355596,
+      "iterationAndScannersApplicationTime" : 92154761,
+      "filesCheckTime" : 550930393,
+      "timeProcessingUpToDateFiles" : 146679146,
+      "timeUpdatingContentLessIndexes" : 1810314,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "External roots from entity (ZendUtils, gmagick, igbinary, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 117093139,
+      "totalOneThreadTimeWithPauses" : 132600063,
+      "iterationAndScannersApplicationTime" : 3413544,
+      "filesCheckTime" : 129109704,
+      "timeProcessingUpToDateFiles" : 59486746,
+      "timeUpdatingContentLessIndexes" : 323822,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

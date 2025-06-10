@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T03:14:10.513117256Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "nestjs-demo",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'nestjs-demo-fleet' (all roots)\" with changes in: \"External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 92655828,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 5861078,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 86500955,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 978840,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-13T03:14:09.951083404Z",
+      "updatingEnd" : "2025-05-13T03:14:10.053486156Z",
+      "totalWallTimeWithPauses" : 102402752,
+      "wallTimeOnPause" : 325933,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 102076819
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 338,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 14
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 72374083,
+      "totalOneThreadTimeWithPauses" : 83848969,
+      "iterationAndScannersApplicationTime" : 4838161,
+      "filesCheckTime" : 78930942,
+      "timeProcessingUpToDateFiles" : 36089177,
+      "timeUpdatingContentLessIndexes" : 181970,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'nestjs-demo-fleet' (all roots)",
+      "numberOfScannedFiles" : 14,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 14,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 4977035,
+      "totalOneThreadTimeWithPauses" : 8806859,
+      "iterationAndScannersApplicationTime" : 1022917,
+      "filesCheckTime" : 7570013,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 29217,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 978840,
+      "roots" : [ ]
+    } ]
+  }
+}

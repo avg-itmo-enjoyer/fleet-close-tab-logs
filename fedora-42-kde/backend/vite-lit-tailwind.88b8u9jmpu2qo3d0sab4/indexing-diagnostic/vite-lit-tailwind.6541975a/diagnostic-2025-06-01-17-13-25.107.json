@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-01T14:13:25.107335039Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "vite-lit-tailwind",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'vite-lit-tailwind-fleet' (all roots)\" with changes in: \"External roots from entity (svn, intl, Phar, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 58456981,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4330357,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 53866261,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 16014460,
+      "dumbModeStart" : "2025-06-01T14:13:24.56442659Z",
+      "dumbWallTimeWithPauses" : 103272472,
+      "dumbWallTimeWithoutPauses" : 103214617,
+      "updatingStart" : "2025-06-01T14:13:24.564188862Z",
+      "updatingEnd" : "2025-06-01T14:13:24.667699062Z",
+      "totalWallTimeWithPauses" : 103510200,
+      "wallTimeOnPause" : 57855,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 103452345
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 333,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 333
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (svn, intl, Phar, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 44485049,
+      "totalOneThreadTimeWithPauses" : 54205753,
+      "iterationAndScannersApplicationTime" : 3553877,
+      "filesCheckTime" : 50596423,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 364638,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 15865849,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'vite-lit-tailwind-fleet' (all roots)",
+      "numberOfScannedFiles" : 9,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 9,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 2007020,
+      "totalOneThreadTimeWithPauses" : 4251228,
+      "iterationAndScannersApplicationTime" : 776480,
+      "filesCheckTime" : 3269838,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 18123,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 148611,
+      "roots" : [ ]
+    } ]
+  }
+}

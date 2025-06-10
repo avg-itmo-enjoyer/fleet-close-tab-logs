@@ -1,0 +1,95 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T02:18:38.327668134Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "some_project",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'some_project-fleet' (all roots)\" with changes in: \"External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)\" with changes in: \"Module 'some_project-fleet' (some_project)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 79215581,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4822631,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 74046386,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 20312861,
+      "dumbModeStart" : "2025-05-13T02:18:37.645823504Z",
+      "dumbWallTimeWithPauses" : 89979667,
+      "dumbWallTimeWithoutPauses" : 89979667,
+      "updatingStart" : "2025-05-13T02:18:37.645496051Z",
+      "updatingEnd" : "2025-05-13T02:18:37.735803171Z",
+      "totalWallTimeWithPauses" : 90307120,
+      "wallTimeOnPause" : 298240,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 90008880
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 326,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 326
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 55241478,
+      "totalOneThreadTimeWithPauses" : 73692396,
+      "iterationAndScannersApplicationTime" : 4010158,
+      "filesCheckTime" : 69633820,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 449727,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 20232029,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'some_project-fleet' (some_project)",
+      "numberOfScannedFiles" : 2,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 2,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1427768,
+      "totalOneThreadTimeWithPauses" : 4468743,
+      "iterationAndScannersApplicationTime" : 276415,
+      "filesCheckTime" : 4077275,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 60021,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 80832,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'some_project-fleet' (all roots)",
+      "numberOfScannedFiles" : 0,
+      "numberOfSkippedFiles" : 3,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 0,
+      "totalOneThreadTimeWithPauses" : 1054442,
+      "iterationAndScannersApplicationTime" : 536058,
+      "filesCheckTime" : 335291,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 0,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

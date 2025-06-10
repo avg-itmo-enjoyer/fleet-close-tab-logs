@@ -1,0 +1,79 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T03:39:16.490513099Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "js-playground",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'js-playground-fleet' (all roots)\" with changes in: \"External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 70131839,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 5284360,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 64696657,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 71728,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-13T03:39:16.036016983Z",
+      "updatingEnd" : "2025-05-13T03:39:16.113194597Z",
+      "totalWallTimeWithPauses" : 77177614,
+      "wallTimeOnPause" : 365577,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 76812037
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 326,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 1
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 52211104,
+      "totalOneThreadTimeWithPauses" : 68342401,
+      "iterationAndScannersApplicationTime" : 4832796,
+      "filesCheckTime" : 63461562,
+      "timeProcessingUpToDateFiles" : 26544381,
+      "timeUpdatingContentLessIndexes" : 163144,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'js-playground-fleet' (all roots)",
+      "numberOfScannedFiles" : 2,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 496113,
+      "totalOneThreadTimeWithPauses" : 1789438,
+      "iterationAndScannersApplicationTime" : 451564,
+      "filesCheckTime" : 1235095,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 1068,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 71728,
+      "roots" : [ ]
+    } ]
+  }
+}

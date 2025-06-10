@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-22T13:06:16.901166047Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "actions-demo",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'actions-demo-fleet' (all roots)\" with changes in: \"External roots from entity (frankenphp, mcrypt, dio, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 140235005,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 5002585,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 134734187,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 43869686,
+      "dumbModeStart" : "2025-05-22T13:06:16.471411272Z",
+      "dumbWallTimeWithPauses" : 155370309,
+      "dumbWallTimeWithoutPauses" : 155370309,
+      "updatingStart" : "2025-05-22T13:06:16.471023021Z",
+      "updatingEnd" : "2025-05-22T13:06:16.626781581Z",
+      "totalWallTimeWithPauses" : 155758560,
+      "wallTimeOnPause" : 255906,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 155502654
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 328,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 328
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (frankenphp, mcrypt, dio, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 118961410,
+      "totalOneThreadTimeWithPauses" : 137406122,
+      "iterationAndScannersApplicationTime" : 4412764,
+      "filesCheckTime" : 132764057,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 1116825,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 43767778,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'actions-demo-fleet' (all roots)",
+      "numberOfScannedFiles" : 4,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 4,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1012713,
+      "totalOneThreadTimeWithPauses" : 2828883,
+      "iterationAndScannersApplicationTime" : 589821,
+      "filesCheckTime" : 1970130,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 39867,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 101908,
+      "roots" : [ ]
+    } ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-28T20:57:40.569622496Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "smfny-demo",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)\" with changes in: \"External roots from entity (empty; empty; composer, cache, container, ...; empty)\" with changes in: \"External roots from entity (ZendUtils, gmagick, igbinary, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 213766912,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 13089607,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 200527535,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 37818799,
+      "dumbModeStart" : "2025-05-28T20:57:40.006846752Z",
+      "dumbWallTimeWithPauses" : 136749793,
+      "dumbWallTimeWithoutPauses" : 136749793,
+      "updatingStart" : "2025-05-28T20:57:40.005979682Z",
+      "updatingEnd" : "2025-05-28T20:57:40.143596545Z",
+      "totalWallTimeWithPauses" : 137616863,
+      "wallTimeOnPause" : 295457,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 137321406
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 1792,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 1459
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; composer, cache, container, ...; empty)",
+      "numberOfScannedFiles" : 1460,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1459,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 104951301,
+      "totalOneThreadTimeWithPauses" : 121562483,
+      "iterationAndScannersApplicationTime" : 8810460,
+      "filesCheckTime" : 112709536,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 488370,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 37818799,
+      "roots" : [ ]
+    }, {
+      "providerName" : "External roots from entity (ZendUtils, gmagick, igbinary, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 80931082,
+      "totalOneThreadTimeWithPauses" : 89928431,
+      "iterationAndScannersApplicationTime" : 4234502,
+      "filesCheckTime" : 85655216,
+      "timeProcessingUpToDateFiles" : 48590042,
+      "timeUpdatingContentLessIndexes" : 197830,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1831223,
+      "totalOneThreadTimeWithPauses" : 2275998,
+      "iterationAndScannersApplicationTime" : 44645,
+      "filesCheckTime" : 2162783,
+      "timeProcessingUpToDateFiles" : 345034,
+      "timeUpdatingContentLessIndexes" : 10598,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

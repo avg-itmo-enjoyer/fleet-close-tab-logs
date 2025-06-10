@@ -1,0 +1,688 @@
+<html>
+  <head>
+    <title>Indexing diagnostics of 'expances-web-client'</title>
+    <style>body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 80%;
+}
+
+table.activity-table {
+  width: 100%;
+}
+
+table.metrics-table {
+  width: auto;
+}
+
+.red-text {
+  color: red;
+}
+
+table.narrow-activity-table {
+  width: 80%;
+}
+
+table.two-columns td {
+  width: 50%;
+}
+
+th, td {
+  padding: 3px;
+}
+
+th {
+  background: lightgrey;
+}
+
+td {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.stats-content {
+  margin-left: 20%;
+}
+
+.stats-activity-content {
+  margin-left: 20%;
+  margin-right: 5%;
+}
+
+.aggregate-report-content {
+  margin-left: 10%;
+}
+
+.aggregate-activity-report-content {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.aggregate-header {
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-bottom: 0;
+}
+
+.table-with-margin{
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.navigation-bar {
+  width: 15%;
+  background-color: lightgrey;
+  position: fixed;
+  height: 100%;
+}
+
+div.navigation-bar ul {
+  list-style-type: none;
+  overflow: auto;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}
+
+div.navigation-bar ul li a, label {
+  display: block;
+  color: #000;
+  padding: 8px 20px;
+  text-decoration: none;
+}
+
+label input {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+div.navigation-bar ul li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+.minor-data {}
+
+.invisible {
+  display: none;
+}
+
+.jetbrains-logo {
+  width: 50%;
+  bottom: 5%;
+  position: absolute;
+  left: 20%;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.linkable-table-row:hover {
+  background: #f2f3ff;
+  outline: none;
+  cursor: pointer;
+}
+
+.scanning-table-row {
+  background-color: aliceblue;
+}
+
+.not-applicable-data{
+  color: darkgrey;
+}</style>
+    <script>document.addEventListener("DOMContentLoaded", () => {
+  const rows = document.getElementsByClassName("linkable-table-row")
+  for (const row of rows) {
+    const href = row.getAttribute("href")
+    row.addEventListener("click", () => {
+      window.open(href, "_blank");
+    });
+  }
+});</script>
+  </head>
+  <body>
+    <div class="aggregate-activity-report-content">
+      <h1 class="aggregate-header">expances-web-client</h1>
+      <div>All durations are wall time; total and content loading time include pauses
+        <table class="centered-text table-with-margin activity-table"><caption style="caption-side: bottom; text-align: right; font-size: 14px">Click for details</caption>
+          <thead>
+            <tr>
+              <th colspan="14">History of scannings and indexings</th>
+            </tr>
+            <tr>
+              <th colspan="7">Time</th>
+              <th colspan="5">Files</th>
+              <th rowspan="2">Scanning ID(s)</th>
+              <th rowspan="2">Scanning Type</th>
+            </tr>
+            <tr>
+              <th>Started</th>
+              <th>Started dumb mode</th>
+              <th>Finished</th>
+              <th>Total&nbsp;time</th>
+              <th>Time spent on pause</th>
+              <th>Full dumb mode time</th>
+              <th>Dumb mode time w/o pauses</th>
+              <th>Scanned</th>
+              <th>Shared indexes (w/o content loading)</th>
+              <th>Scheduled for indexing</th>
+              <th>Shared indexes (content loaded)</th>
+              <th>Total indexed (shared indexes included)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="linkable-table-row" href="diagnostic-2025-05-14-09-45-19.646.html">
+              <td>09:45:18 14 May</td>
+              <td>09:45:18 14 May</td>
+              <td>09:45:19 14 May</td>
+              <td>1 s 440 ms</td>
+              <td>0</td>
+              <td>1 s 440 ms</td>
+              <td>1 s 440 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>13<br>(incl. 13 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-05-14-09-35-52.009.html">
+              <td>09:35:51 14 May</td>
+              <td>09:35:51 14 May</td>
+              <td>09:35:52 14 May</td>
+              <td>670 ms</td>
+              <td>0</td>
+              <td>670 ms</td>
+              <td>670 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>2791<br>(incl. 2791 changed in VFS)</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-05-14-09-35-39.236.html">
+              <td>09:35:39 14 May</td>
+              <td>09:35:39 14 May</td>
+              <td>09:35:39 14 May</td>
+              <td>&lt; 1 ms</td>
+              <td>0</td>
+              <td>&lt; 1 ms</td>
+              <td>&lt; 1 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>0</td>
+              <td>None</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-05-14-09-35-39.205.html">
+              <td>09:35:34 14 May</td>
+              <td>09:35:34 14 May</td>
+              <td>09:35:39 14 May</td>
+              <td>4 s 631 ms</td>
+              <td>0</td>
+              <td>4 s 631 ms</td>
+              <td>4 s 631 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>3211<br>(incl. 1 changed in VFS)</td>
+              <td>4</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-05-14-09-35-34.572.html">
+              <td>09:35:34 14 May</td>
+              <td>09:35:34 14 May</td>
+              <td>09:35:34 14 May</td>
+              <td>475 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>446 ms</td>
+              <td>446 ms</td>
+              <td>3210</td>
+              <td>0</td>
+              <td>3210</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>4</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-05-14-09-35-34.093.html">
+              <td>09:35:32 14 May</td>
+              <td>09:35:32 14 May</td>
+              <td>09:35:34 14 May</td>
+              <td>1 s 619 ms</td>
+              <td>0</td>
+              <td>1 s 619 ms</td>
+              <td>1 s 619 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>96</td>
+              <td>3</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-05-14-09-35-32.537.html">
+              <td>09:35:32 14 May</td>
+              <td>09:35:32 14 May</td>
+              <td>09:35:32 14 May</td>
+              <td>43 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>43 ms</td>
+              <td>43 ms</td>
+              <td>96</td>
+              <td>0</td>
+              <td>96</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>3</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row" href="diagnostic-2025-05-14-09-35-32.422.html">
+              <td>09:35:31 14 May</td>
+              <td>09:35:31 14 May</td>
+              <td>09:35:32 14 May</td>
+              <td>428 ms</td>
+              <td>0</td>
+              <td>428 ms</td>
+              <td>428 ms</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>0</td>
+              <td>21</td>
+              <td>1, 2</td>
+              <td class="not-applicable-data">N/A</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-05-14-09-35-32.062.html">
+              <td>09:35:31 14 May</td>
+              <td>09:35:31 14 May</td>
+              <td>09:35:31 14 May</td>
+              <td>451 ms</td>
+              <td>&lt; 1 ms</td>
+              <td>451 ms</td>
+              <td>451 ms</td>
+              <td>355</td>
+              <td>0</td>
+              <td>21</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>2</td>
+              <td>partial</td>
+            </tr>
+            <tr class="linkable-table-row scanning-table-row" href="diagnostic-2025-05-14-09-35-31.529.html">
+              <td>09:35:30 14 May</td>
+              <td>09:35:31 14 May</td>
+              <td>09:35:31 14 May</td>
+              <td>1 s 467 ms</td>
+              <td>1 ms</td>
+              <td>10 ms</td>
+              <td>10 ms</td>
+              <td>474</td>
+              <td>0</td>
+              <td>21</td>
+              <td class="not-applicable-data">N/A</td>
+              <td class="not-applicable-data">N/A</td>
+              <td>1</td>
+              <td>full</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table metrics-table">
+          <thead>
+            <tr>
+              <th colspan="2">Metrics</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>indexingTimeWithoutPauses</td>
+              <td>8 s 791 ms</td>
+            </tr>
+            <tr>
+              <td>scanningTimeWithoutPauses</td>
+              <td>2 s 436 ms</td>
+            </tr>
+            <tr>
+              <td>pausedTimeInIndexingOrScanning</td>
+              <td>2 ms</td>
+            </tr>
+            <tr>
+              <td>dumbModeTimeWithPauses</td>
+              <td>9 s 738 ms</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFiles</td>
+              <td>6132</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFilesWritingIndexValue</td>
+              <td>6132</td>
+            </tr>
+            <tr>
+              <td>numberOfIndexedFilesWithNothingToWrite</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>numberOfFilesIndexedByExtensions</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>numberOfFilesIndexedWithoutExtensions</td>
+              <td>6132</td>
+            </tr>
+            <tr>
+              <td>numberOfRunsOfScannning</td>
+              <td>4</td>
+            </tr>
+            <tr>
+              <td>numberOfRunsOfIndexing</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#TypeScript</td>
+              <td>2122</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Sass</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#HTML</td>
+              <td>227</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#JSON</td>
+              <td>10260</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#Markdown</td>
+              <td>72</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#EditorConfig</td>
+              <td>82</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#tsconfig</td>
+              <td>927</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#PLAIN_TEXT</td>
+              <td>2536</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#JavaScript</td>
+              <td>1364</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#CSS</td>
+              <td>2363</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#UNKNOWN</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedAvg#SourceMap</td>
+              <td>23750</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#TypeScript</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Sass</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#HTML</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#JSON</td>
+              <td>260</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#Markdown</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#EditorConfig</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#tsconfig</td>
+              <td>140</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#PLAIN_TEXT</td>
+              <td>143</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#JavaScript</td>
+              <td>132</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#CSS</td>
+              <td>187</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#UNKNOWN</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedWorst#SourceMap</td>
+              <td>11444</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#TypeScript</td>
+              <td>2122</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#JavaScript</td>
+              <td>1948</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#SASS</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#CSS</td>
+              <td>225</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#HTML</td>
+              <td>227</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#XML</td>
+              <td>227</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#JSON</td>
+              <td>17176</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#Markdown</td>
+              <td>72</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#EditorConfig</td>
+              <td>82</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageAvg#TEXT</td>
+              <td>2536</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#TypeScript</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#JavaScript</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#SASS</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#CSS</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#HTML</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#XML</td>
+              <td>34</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#JSON</td>
+              <td>337</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#Markdown</td>
+              <td>11</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#EditorConfig</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <td>processingSpeedOfBaseLanguageWorst#TEXT</td>
+              <td>143</td>
+            </tr>
+            <tr>
+              <td>processingTime#TypeScript</td>
+              <td>5 s 874 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Sass</td>
+              <td>89 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#HTML</td>
+              <td>89 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#JSON</td>
+              <td>140 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#Markdown</td>
+              <td>20 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#EditorConfig</td>
+              <td>3 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#tsconfig</td>
+              <td>1 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#PLAIN_TEXT</td>
+              <td>2 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#JavaScript</td>
+              <td>1 s 742 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#CSS</td>
+              <td>9 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#UNKNOWN</td>
+              <td>664 ms</td>
+            </tr>
+            <tr>
+              <td>processingTime#SourceMap</td>
+              <td>152 ms</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table">
+          <thead>
+            <tr>
+              <th colspan="9">Shared indexes</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Kind</th>
+              <th>Name</th>
+              <th>Size</th>
+              <th>Download time</th>
+              <th>Download speed</th>
+              <th>Status</th>
+              <th>ID</th>
+              <th>Generation time</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div>
+        <table class="table-with-margin activity-table">
+          <thead>
+            <tr>
+              <th colspan="5">Scanning to push properties of changed files</th>
+            </tr>
+            <tr>
+              <th>Time</th>
+              <th>Reason</th>
+              <th>Full duration</th>
+              <th>Is cancelled</th>
+              <th>Number</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>09:45:18 14 May</td>
+              <td>Push on VFS changes</td>
+              <td>19 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>09:45:16 14 May</td>
+              <td>Push on VFS changes</td>
+              <td>5 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <td>09:35:31 14 May</td>
+              <td>Push on VFS changes</td>
+              <td>3 ms</td>
+              <td>fully finished</td>
+              <td>1</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-01T14:16:20.431207728Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "vite-lit-tailwind",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; unsafe-svg.d.ts, until.d.ts, when.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 32205853,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 2119175,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 30046188,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 1792430,
+      "dumbModeStart" : "2025-06-01T14:16:20.401801411Z",
+      "dumbWallTimeWithPauses" : 28822882,
+      "dumbWallTimeWithoutPauses" : 28822882,
+      "updatingStart" : "2025-06-01T14:16:20.384619449Z",
+      "updatingEnd" : "2025-06-01T14:16:20.430624293Z",
+      "totalWallTimeWithPauses" : 46004844,
+      "wallTimeOnPause" : 265877,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 45738967
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 297,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 297
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; unsafe-svg.d.ts, until.d.ts, when.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 297,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 297,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 25772364,
+      "totalOneThreadTimeWithPauses" : 32205853,
+      "iterationAndScannersApplicationTime" : 2119175,
+      "filesCheckTime" : 30046188,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 8653676,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 1792430,
+      "roots" : [ ]
+    } ]
+  }
+}

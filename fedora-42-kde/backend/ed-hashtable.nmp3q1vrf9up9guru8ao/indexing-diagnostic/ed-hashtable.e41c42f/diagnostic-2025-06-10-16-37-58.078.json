@@ -1,0 +1,129 @@
+{
+  "appInfo" : {
+    "build" : "252.16528",
+    "buildDate" : "2025-05-20T05:20:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-10T13:37:58.07835512Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "ed-hashtable",
+    "times" : {
+      "scanningIds" : [ 0 ],
+      "contentLoadingVisibleTime" : 3931087,
+      "retrievingChangedDuringIndexingFilesTime" : 514005,
+      "separateApplyingIndexesVisibleTime" : 7065493,
+      "updatingStart" : "2025-06-10T13:37:57.648895615Z",
+      "updatingEnd" : "2025-06-10T13:37:57.712304336Z",
+      "totalWallTimeWithPauses" : 63408721,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "dumbWallTimeWithPauses" : 63408721,
+      "dumbWallTimeWithoutPauses" : 63408721,
+      "dumbModeStart" : "2025-06-10T13:37:57.648895615Z",
+      "totalWallTimeWithoutPauses" : 63408721
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 1,
+      "numberOfNothingToWriteFiles" : 0
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "ObjectiveC",
+      "partOfTotalProcessingTime" : {
+        "part" : 21478533,
+        "total" : 21478533
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 1691911,
+        "total" : 1691911
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 51,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 51,
+        "totalCpuTime" : 21478533
+      },
+      "biggestContributors" : [ {
+        "providerName" : "<indexing queue>",
+        "numberOfFiles" : 1,
+        "totalFilesSize" : 51,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 21478533,
+          "total" : 21478533
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ {
+      "language" : "ObjectiveC",
+      "partOfTotalProcessingTime" : {
+        "part" : 21478533,
+        "total" : 21478533
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 3383822,
+        "total" : 1691911
+      },
+      "totalNumberOfFiles" : 1,
+      "totalFilesSize" : 51,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 51,
+        "totalCpuTime" : 21478533
+      }
+    } ],
+    "totalStatsPerIndexer" : [ {
+      "indexId" : "IdIndex",
+      "partOfTotalIndexingTime" : {
+        "part" : 7837481,
+        "total" : 13564951
+      },
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 51,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 51,
+        "totalCpuTime" : 7837481
+      }
+    }, {
+      "indexId" : "Trigram.Index",
+      "partOfTotalIndexingTime" : {
+        "part" : 5727470,
+        "total" : 13564951
+      },
+      "totalNumberOfFiles" : 1,
+      "totalNumberOfFilesIndexedByExtensions" : 0,
+      "totalFilesSize" : 51,
+      "indexValueChangerEvaluationSpeed" : {
+        "totalBytes" : 51,
+        "totalCpuTime" : 5727470
+      }
+    } ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 514005
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "<indexing queue>",
+      "totalNumberOfIndexedFiles" : 1,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 0,
+      "totalIndexingVisibleTime" : 49904514,
+      "contentLoadingVisibleTime" : 3931087,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 7065493
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 2.323460079885344
+  }
+}

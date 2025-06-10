@@ -1,0 +1,94 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-23T12:30:41.647113285Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "tg-web-app-auth",
+    "times" : {
+      "scanningReason" : "changes in: \"Module 'tg-web-app-auth-fleet.main' (all roots)\", \"Module 'tg-web-app-auth-fleet.test' (all roots)\", \"JDK JAVA_HOME /usr/lib/jvm/java-21-openjdk\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 4,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 508260650,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 39785282,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 468235622,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-23T12:30:41.137050826Z",
+      "updatingEnd" : "2025-05-23T12:30:41.646333227Z",
+      "totalWallTimeWithPauses" : 509282401,
+      "wallTimeOnPause" : 209762,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 509072639
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 28436,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "JDK JAVA_HOME /usr/lib/jvm/java-21-openjdk",
+      "numberOfScannedFiles" : 28433,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 442336237,
+      "totalOneThreadTimeWithPauses" : 502060820,
+      "iterationAndScannersApplicationTime" : 37665234,
+      "filesCheckTime" : 464340739,
+      "timeProcessingUpToDateFiles" : 135072617,
+      "timeUpdatingContentLessIndexes" : 4699949,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'tg-web-app-auth-fleet.test' (all roots)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1655723,
+      "totalOneThreadTimeWithPauses" : 3442892,
+      "iterationAndScannersApplicationTime" : 1018553,
+      "filesCheckTime" : 2349440,
+      "timeProcessingUpToDateFiles" : 51616,
+      "timeUpdatingContentLessIndexes" : 684345,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'tg-web-app-auth-fleet.main' (all roots)",
+      "numberOfScannedFiles" : 2,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 530719,
+      "totalOneThreadTimeWithPauses" : 2756938,
+      "iterationAndScannersApplicationTime" : 1101495,
+      "filesCheckTime" : 1545443,
+      "timeProcessingUpToDateFiles" : 98262,
+      "timeUpdatingContentLessIndexes" : 4221,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

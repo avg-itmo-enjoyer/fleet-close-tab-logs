@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.16528",
+    "buildDate" : "2025-05-20T05:20:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-10T16:29:10.209925022Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "generated",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'generated-fleet' (all roots)\" with changes in: \"External roots from entity (xmlwriter, mysqli, json, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 134240938,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4838270,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 129200024,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 43525724,
+      "dumbModeStart" : "2025-06-10T16:29:09.700250759Z",
+      "dumbWallTimeWithPauses" : 148145166,
+      "dumbWallTimeWithoutPauses" : 148145166,
+      "updatingStart" : "2025-06-10T16:29:09.699859184Z",
+      "updatingEnd" : "2025-06-10T16:29:09.848395925Z",
+      "totalWallTimeWithPauses" : 148536741,
+      "wallTimeOnPause" : 226160,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 148310581
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 329,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 329
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (xmlwriter, mysqli, json, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 115532433,
+      "totalOneThreadTimeWithPauses" : 130786869,
+      "iterationAndScannersApplicationTime" : 4261896,
+      "filesCheckTime" : 126460593,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 983269,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 43391599,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'generated-fleet' (all roots)",
+      "numberOfScannedFiles" : 5,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 5,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1620155,
+      "totalOneThreadTimeWithPauses" : 3454069,
+      "iterationAndScannersApplicationTime" : 576374,
+      "filesCheckTime" : 2739431,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 20164,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 134125,
+      "roots" : [ ]
+    } ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-28T19:11:57.44998465Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "laravel-demo",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"External roots from entity (empty; empty; composer.phar; empty)\" with changes in: \"External roots from entity (empty; empty; composer.phar; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 4,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 49981038,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 2015011,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 47914919,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbModeStart" : "2025-05-28T19:11:57.395119649Z",
+      "dumbWallTimeWithPauses" : 54132820,
+      "dumbWallTimeWithoutPauses" : 54132820,
+      "updatingStart" : "2025-05-28T19:11:57.394874385Z",
+      "updatingEnd" : "2025-05-28T19:11:57.449252469Z",
+      "totalWallTimeWithPauses" : 54378084,
+      "wallTimeOnPause" : 321036,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 54057048
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 673,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; composer.phar; empty)",
+      "numberOfScannedFiles" : 673,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 46015367,
+      "totalOneThreadTimeWithPauses" : 49981038,
+      "iterationAndScannersApplicationTime" : 2015011,
+      "filesCheckTime" : 47914919,
+      "timeProcessingUpToDateFiles" : 17149897,
+      "timeUpdatingContentLessIndexes" : 207230,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    } ]
+  }
+}

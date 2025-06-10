@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-23T12:48:52.947050814Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "tg-web-app-auth",
+    "times" : {
+      "scanningReason" : "changes in: \"Library Gradle: commons-io:commons-io:2.16.1 (#1 class roots, #1 source roots)\", \"Library Gradle: org.telegram:telegrambots-client:8.3.0 (#1 class roots, #1 source roots)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 9,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 85469953,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 46872236,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 38378684,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 2965349,
+      "dumbModeStart" : "2025-05-23T12:48:52.908129459Z",
+      "dumbWallTimeWithPauses" : 38189535,
+      "dumbWallTimeWithoutPauses" : 38189535,
+      "updatingStart" : "2025-05-23T12:48:52.865803704Z",
+      "updatingEnd" : "2025-05-23T12:48:52.946318994Z",
+      "totalWallTimeWithPauses" : 80515290,
+      "wallTimeOnPause" : 187433,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 80327857
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 629,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 629
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "Library Gradle: commons-io:commons-io:2.16.1 (#1 class roots, #1 source roots)",
+      "numberOfScannedFiles" : 611,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 611,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 25261103,
+      "totalOneThreadTimeWithPauses" : 75756829,
+      "iterationAndScannersApplicationTime" : 39515930,
+      "filesCheckTime" : 36156212,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 11390584,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 2874686,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Library Gradle: org.telegram:telegrambots-client:8.3.0 (#1 class roots, #1 source roots)",
+      "numberOfScannedFiles" : 18,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 18,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1232157,
+      "totalOneThreadTimeWithPauses" : 9713124,
+      "iterationAndScannersApplicationTime" : 7356306,
+      "filesCheckTime" : 2222472,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 361093,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 90663,
+      "roots" : [ ]
+    } ]
+  }
+}

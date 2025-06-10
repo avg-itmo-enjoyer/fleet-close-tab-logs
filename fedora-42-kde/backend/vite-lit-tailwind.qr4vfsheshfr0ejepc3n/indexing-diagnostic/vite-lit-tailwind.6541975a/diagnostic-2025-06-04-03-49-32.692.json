@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.16528",
+    "buildDate" : "2025-05-20T05:20:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-04T00:49:32.692559701Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "vite-lit-tailwind",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)\" with changes in: \"External roots from entity (snmp, redis, judy, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 102866369,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4091476,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 98685961,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 33169058,
+      "dumbModeStart" : "2025-06-04T00:49:32.163209263Z",
+      "dumbWallTimeWithPauses" : 119590439,
+      "dumbWallTimeWithoutPauses" : 119590439,
+      "updatingStart" : "2025-06-04T00:49:32.1629833Z",
+      "updatingEnd" : "2025-06-04T00:49:32.282799702Z",
+      "totalWallTimeWithPauses" : 119816402,
+      "wallTimeOnPause" : 242865,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 119573537
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 332,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 332
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (snmp, redis, judy, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 85818001,
+      "totalOneThreadTimeWithPauses" : 101314684,
+      "iterationAndScannersApplicationTime" : 4037332,
+      "filesCheckTime" : 97232370,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 784354,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 33059667,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 8,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1109873,
+      "totalOneThreadTimeWithPauses" : 1551685,
+      "iterationAndScannersApplicationTime" : 54144,
+      "filesCheckTime" : 1453591,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 19916,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 109391,
+      "roots" : [ ]
+    } ]
+  }
+}

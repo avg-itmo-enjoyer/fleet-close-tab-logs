@@ -1,0 +1,50 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-23T12:30:12.355256032Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "tg-web-app-auth",
+    "times" : {
+      "scanningReason" : "Reindex of changed dependencies requested, but status is not initialized",
+      "scanningType" : "FULL_ON_PROJECT_OPEN",
+      "scanningId" : 0,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 0,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 0,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 0,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-23T12:30:12.226239346Z",
+      "updatingEnd" : "2025-05-23T12:30:12.333759117Z",
+      "totalWallTimeWithPauses" : 107519771,
+      "wallTimeOnPause" : 2395872,
+      "isCancelled" : true,
+      "cancellationReason" : "java.util.concurrent.CancellationException: Full scanning is queued",
+      "totalWallTimeWithoutPauses" : 105123899
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 0,
+      "numberOfScannedFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ ]
+  }
+}

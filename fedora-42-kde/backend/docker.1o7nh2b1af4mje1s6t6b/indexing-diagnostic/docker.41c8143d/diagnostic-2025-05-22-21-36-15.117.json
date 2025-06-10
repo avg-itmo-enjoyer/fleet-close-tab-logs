@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-22T18:36:15.11737055Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "docker",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'docker-fleet' (all roots)\" with changes in: \"External roots from entity (rrd, bcmath, Reflection, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 103854601,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 9859218,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 93807502,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 26352965,
+      "dumbModeStart" : "2025-05-22T18:36:14.610826232Z",
+      "dumbWallTimeWithPauses" : 114451947,
+      "dumbWallTimeWithoutPauses" : 114451947,
+      "updatingStart" : "2025-05-22T18:36:14.610210438Z",
+      "updatingEnd" : "2025-05-22T18:36:14.725278179Z",
+      "totalWallTimeWithPauses" : 115067741,
+      "wallTimeOnPause" : 518818,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 114548923
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 327,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 327
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (rrd, bcmath, Reflection, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 74282998,
+      "totalOneThreadTimeWithPauses" : 94458776,
+      "iterationAndScannersApplicationTime" : 9180123,
+      "filesCheckTime" : 85221865,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 620044,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 26268189,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'docker-fleet' (all roots)",
+      "numberOfScannedFiles" : 3,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 3,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 752561,
+      "totalOneThreadTimeWithPauses" : 9395825,
+      "iterationAndScannersApplicationTime" : 679095,
+      "filesCheckTime" : 8585637,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 16105,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 84776,
+      "roots" : [ ]
+    } ]
+  }
+}

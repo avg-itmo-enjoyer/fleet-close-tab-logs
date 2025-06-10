@@ -1,0 +1,162 @@
+OpenJDK 64-Bit Server VM warning: Ignoring option --illegal-access=permit; support was removed in 17.0
+WARNING: package com.apple.laf not in java.desktop
+WARNING: package com.apple.eawt.event not in java.desktop
+WARNING: package com.apple.eawt not in java.desktop
+SLF4J(E): A service provider failed to instantiate:
+org.slf4j.spi.SLF4JServiceProvider: Provider fleet.util.logging.slf4j.FleetSlf4jServiceProvider could not be instantiated
+2025-05-18 14:38:23,545 [    303]   WARN - #c.i.i.p.PluginManager - Problems found loading plugins:
+  IDE Neutral Cocoa Support (id=com.jetbrains.cocoa, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/cidr-cocoa-plugin): Requires plugin 'com.intellij.swift.lang' to be enabled
+  Swift Doc (id=com.intellij.swift.doc, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/swift-doc-plugin): Requires plugin 'com.intellij.swift.lang' to be enabled
+  Fleet Mercury: Enable Dependencies macOS (id=fleet.backend.mercury.depEnabler.macos, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-mercury-backend-depEnabler-macos): Plugin 'Fleet Mercury: Enable Dependencies macOS' requires plugin 'com.intellij.modules.os.mac' to be installed
+  Database Tools and SQL (id=com.intellij.database, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/DatabaseTools): Plugin 'Database Tools and SQL' requires plugin 'intellij.grid' to be installed
+  JVM Persistence Frameworks (id=com.intellij.persistence, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/javaee-persistence-impl): Plugin 'JVM Persistence Frameworks' requires plugin 'Database Tools and SQL' to be enabled
+  Jakarta EE: Persistence (JPA) (id=com.intellij.javaee.jpa, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/JPA): Plugin 'Jakarta EE: Persistence (JPA)' requires plugin 'JVM Persistence Frameworks' to be enabled
+  Fleet Java EE Platform (id=fleet.backend.javaee.platform, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-javaee-platform-backend): Plugin 'Fleet Java EE Platform' requires plugin 'Jakarta EE: Persistence (JPA)' to be enabled
+  Fleet Java EE Web (id=fleet.backend.javaee.web, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-javaee-web-backend): Plugin 'Fleet Java EE Web' requires plugin 'Fleet Java EE Platform' to be enabled
+  Fleet Java EL (id=fleet.backend.javaee.el, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-javaee-el-backend): Plugin 'Fleet Java EL' requires plugin 'Fleet Java EE Platform' to be enabled
+  Fleet Spring MVC (id=fleet.backend.spring.mvc, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-spring-mvc-backend): Plugin 'Fleet Spring MVC' requires plugin 'Fleet Java EE Platform' to be enabled
+2025-05-18 14:38:23,916 [    674]   WARN - #c.i.d.GuiPluginConflictReporter - One should provide at least two conflicting classes to report
+2025-05-18 14:38:24,544 [   1302]   WARN - #fleet.backend.plugins.BackendPluginsInstaller - Unknown or rejected plugins: [fleet.backend.mercury.macos, fleet.backend.spring.data, org.jetbrains.plugins.ruby, com.intellij.swift.doc, com.jetbrains.cocoa, fleet.backend.mercury.depEnabler.macos, com.intellij.spring.ws, com.intellij.swift.lang, com.intellij.cidr.completion.ml.ranking, fleet.backend.mercury.android]
+Loaded backend logback configuration from:
+	/home/enjoyer/.config/JetBrains/Fleet/log.conf.toml
+Applying new dynamic config FleetLogConfiguration(refreshTimeout=30, default=WARN, perTarget={}, loggers=[Entry(loggerName=fleet, default=null, perTarget={CONSOLE=WARN, FILE=INFO}), Entry(loggerName=noria, default=null, perTarget={CONSOLE=WARN, FILE=INFO})])
+Applying categories []
+2025-05-18 14:38:25,428 [   2186] SEVERE - fleet.backend.workspace.BackendWorkspace - Backend failed to process event DocumentProfileChanged(documentId=CodeInsightDocumentId(id=8sh3di9nla13t8rsm4qg), newDocumentLocation=DocumentLocation(fileAddress=FileAddress(hostId=jv8ehm8jj17cbe1b4a3n, path=/home/enjoyer/projects/GolandProjects/go-pub-lib/docker/docker-compose.yml), imaginary=true, meta=null), newLanguageId=null, newDocumentMediaType=null).
+java.lang.IllegalStateException: Check failed.
+	at fleet.backend.workspace.BackendWorkspace.u(BackendWorkspace.kt:858)
+	at fleet.backend.workspace.BackendWorkspace.processBroadcast(BackendWorkspace.kt:570)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5$4$1.invokeSuspend(BackendWorkspace.kt:402)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5$4$1.invoke(BackendWorkspace.kt)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5$4$1.invoke(BackendWorkspace.kt)
+	at fleet.util.async.CoroutineUtilsKt$catching$2.invokeSuspend(CoroutineUtils.kt:21)
+	at fleet.util.async.CoroutineUtilsKt$catching$2.invoke(CoroutineUtils.kt)
+	at fleet.util.async.CoroutineUtilsKt$catching$2.invoke(CoroutineUtils.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:285)
+	at fleet.util.async.CoroutineUtilsKt.catching(CoroutineUtils.kt:21)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5.emit(BackendWorkspace.kt:402)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5.emit(BackendWorkspace.kt:375)
+	at kotlinx.coroutines.flow.internal.SafeCollectorKt$emitFun$1.invoke(SafeCollector.kt:11)
+	at kotlinx.coroutines.flow.internal.SafeCollectorKt$emitFun$1.invoke(SafeCollector.kt:11)
+	at kotlinx.coroutines.flow.internal.SafeCollector.emit(SafeCollector.kt:115)
+	at kotlinx.coroutines.flow.internal.SafeCollector.emit(SafeCollector.kt:84)
+	at kotlinx.coroutines.flow.internal.FlowValueWrapperInternalKt.emitInternal(FlowValueWrapperInternal.kt:39)
+	at kotlinx.coroutines.channels.BufferedChannel.emitAllInternal$kotlinx_coroutines_core(BufferedChannel.kt:1581)
+	at kotlinx.coroutines.channels.BufferedChannel$emitAllInternal$1.invokeSuspend(BufferedChannel.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.flow.internal.SafeCollector.invokeSuspend(SafeCollector.kt:61)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:36)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1186)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+2025-05-18 14:38:25,436 [   2194]   WARN - fleet.backend.plugins.BackendPluginsServiceImpl - Plugin is installed: PluginDescriptor(name=Jakarta EE: Persistence (JPA), id=com.intellij.javaee.jpa, descriptorPath=plugin.xml, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/JPA, version=252.12832, package=com.intellij.jpa, isBundled=true), enabled: false
+2025-05-18 14:38:25,436 [   2194]   WARN - fleet.backend.plugins.BackendPluginsServiceImpl - Plugin is installed: PluginDescriptor(name=JVM Persistence Frameworks, id=com.intellij.persistence, descriptorPath=plugin.xml, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/javaee-persistence-impl, version=252.12832, package=com.intellij.persistence, isBundled=true), enabled: false
+2025-05-18 14:38:25,437 [   2195]   WARN - fleet.backend.plugins.BackendPluginsServiceImpl - Plugin is installed: PluginDescriptor(name=Fleet Java EL, id=fleet.backend.javaee.el, descriptorPath=plugin.xml, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-javaee-el-backend, version=252.12832, package=fleet.backend.javaee.el, isBundled=true), enabled: false
+2025-05-18 14:38:25,438 [   2196]   WARN - fleet.backend.plugins.BackendPluginsServiceImpl - Plugin is installed: PluginDescriptor(name=Fleet Java EE Platform, id=fleet.backend.javaee.platform, descriptorPath=plugin.xml, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-javaee-platform-backend, version=252.12832, package=fleet.backend.javaee.platform, isBundled=true), enabled: false
+2025-05-18 14:38:25,438 [   2196]   WARN - fleet.backend.plugins.BackendPluginsServiceImpl - Plugin is installed: PluginDescriptor(name=Fleet Java EE Web, id=fleet.backend.javaee.web, descriptorPath=plugin.xml, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-javaee-web-backend, version=252.12832, package=fleet.backend.javaee.web, isBundled=true), enabled: false
+2025-05-18 14:38:25,438 [   2196]   WARN - fleet.backend.plugins.BackendPluginsServiceImpl - Plugin is installed: PluginDescriptor(name=Fleet Spring MVC, id=fleet.backend.spring.mvc, descriptorPath=plugin.xml, path=~/.cache/JetBrains/Fleet/intellij-plugin-2/fleet-backend-252.12832.tar.zst_518f0e4fd68906255ea4e821af11f959/FleetBackend-252.12832/plugins/fleet-plugins-ultimate-spring-mvc-backend, version=252.12832, package=fleet.backend.spring.mvc, isBundled=true), enabled: false
+2025-05-18 14:38:25,444 [   2202] SEVERE - fleet.backend.workspace.BackendWorkspace - Failed to process Transaction(events=[DocumentProfileChanged(documentId=CodeInsightDocumentId(id=8sh3di9nla13t8rsm4qg), newDocumentLocation=DocumentLocation(fileAddress=FileAddress(hostId=jv8ehm8jj17cbe1b4a3n, path=/home/enjoyer/projects/GolandProjects/go-pub-lib/docker/docker-compose.yml), imaginary=true, meta=null), newLanguageId=null, newDocumentMediaType=null), DocumentOpened(document=CodeInsightDocument(id=CodeInsightDocumentId(id=8sh3di9nla13t8rsm4qg), text=, documentLocation=DocumentLocation(fileAddress=FileAddress(hostId=jv8ehm8jj17cbe1b4a3n, path=/home/enjoyer/projects/GolandProjects/go-pub-lib/docker/docker-compose.yml), imaginary=false, meta=null), languageId=null, mediaType=null, timestamp=0, lastEditId=null))], clientId=ibcjnl2magp5q4tll0fc)
+java.lang.IllegalStateException: Check failed.
+	at fleet.backend.workspace.BackendWorkspace.u(BackendWorkspace.kt:858)
+	at fleet.backend.workspace.BackendWorkspace.processBroadcast(BackendWorkspace.kt:570)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5$4$1.invokeSuspend(BackendWorkspace.kt:402)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5$4$1.invoke(BackendWorkspace.kt)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5$4$1.invoke(BackendWorkspace.kt)
+	at fleet.util.async.CoroutineUtilsKt$catching$2.invokeSuspend(CoroutineUtils.kt:21)
+	at fleet.util.async.CoroutineUtilsKt$catching$2.invoke(CoroutineUtils.kt)
+	at fleet.util.async.CoroutineUtilsKt$catching$2.invoke(CoroutineUtils.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:285)
+	at fleet.util.async.CoroutineUtilsKt.catching(CoroutineUtils.kt:21)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5.emit(BackendWorkspace.kt:402)
+	at fleet.backend.workspace.BackendWorkspace$Companion$start$3$1$1$2$5.emit(BackendWorkspace.kt:375)
+	at kotlinx.coroutines.flow.internal.SafeCollectorKt$emitFun$1.invoke(SafeCollector.kt:11)
+	at kotlinx.coroutines.flow.internal.SafeCollectorKt$emitFun$1.invoke(SafeCollector.kt:11)
+	at kotlinx.coroutines.flow.internal.SafeCollector.emit(SafeCollector.kt:115)
+	at kotlinx.coroutines.flow.internal.SafeCollector.emit(SafeCollector.kt:84)
+	at kotlinx.coroutines.flow.internal.FlowValueWrapperInternalKt.emitInternal(FlowValueWrapperInternal.kt:39)
+	at kotlinx.coroutines.channels.BufferedChannel.emitAllInternal$kotlinx_coroutines_core(BufferedChannel.kt:1581)
+	at kotlinx.coroutines.channels.BufferedChannel$emitAllInternal$1.invokeSuspend(BufferedChannel.kt)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.flow.internal.SafeCollector.invokeSuspend(SafeCollector.kt:61)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.internal.ScopeCoroutine.afterResume(Scopes.kt:36)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1186)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)
+2025-05-18 14:38:25,804 [   2562]   WARN - fleet.backend.plugins.BackendPluginsServiceImpl - Plugin installation was not successfully finished
+fleet.backend.plugins.BackendPluginsServiceImpl$BackendPluginException: LoadingError(message=Failed to load plugin)
+	at fleet.backend.plugins.BackendPluginsServiceImpl$installFromMarketplace$restartNeededAfterPluginsEnable$1$1.invoke(BackendPluginsServiceImpl.kt:197)
+	at fleet.backend.plugins.BackendPluginsServiceImpl$installFromMarketplace$restartNeededAfterPluginsEnable$1$1.invoke(BackendPluginsServiceImpl.kt:185)
+	at fleet.backend.DialogOptionsCollectorKt.ignoringDialogs(DialogOptionsCollector.kt:51)
+	at fleet.backend.plugins.BackendPluginsServiceImpl$installFromMarketplace$restartNeededAfterPluginsEnable$1.invokeSuspend(BackendPluginsServiceImpl.kt:185)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at com.intellij.openapi.application.impl.EdtCoroutineDispatcher.wrapWithLocking$lambda$3$lambda$2(EdtCoroutineDispatcher.kt:71)
+	at com.intellij.openapi.application.WriteIntentReadAction.lambda$run$0(WriteIntentReadAction.java:24)
+	at com.intellij.openapi.application.impl.AppImplKt$rethrowCheckedExceptions$2.invoke(appImpl.kt:139)
+	at com.intellij.openapi.application.impl.NestedLocksThreadingSupport.doRunWriteIntentReadAction(NestedLocksThreadingSupport.kt:592)
+	at com.intellij.openapi.application.impl.NestedLocksThreadingSupport.runWriteIntentReadAction(NestedLocksThreadingSupport.kt:568)
+	at com.intellij.openapi.application.impl.ApplicationImpl.runWriteIntentReadAction(ApplicationImpl.java:1012)
+	at com.intellij.openapi.application.WriteIntentReadAction.compute(WriteIntentReadAction.java:55)
+	at com.intellij.openapi.application.WriteIntentReadAction.run(WriteIntentReadAction.java:23)
+	at com.intellij.openapi.application.impl.EdtCoroutineDispatcher.wrapWithLocking$lambda$3(EdtCoroutineDispatcher.kt:70)
+	at com.intellij.openapi.application.impl.DispatchedRunnable.run(DispatchedRunnable.kt:42)
+	at com.intellij.openapi.application.TransactionGuardImpl.runWithWritingAllowed(TransactionGuardImpl.java:240)
+	at com.intellij.openapi.application.TransactionGuardImpl.access$100(TransactionGuardImpl.java:25)
+	at com.intellij.openapi.application.TransactionGuardImpl$2.run(TransactionGuardImpl.java:222)
+	at com.intellij.openapi.application.impl.FlushQueue.runNextEvent(FlushQueue.java:117)
+	at com.intellij.openapi.application.impl.FlushQueue.flushNow(FlushQueue.java:43)
+	at java.desktop/java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318)
+	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:781)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:728)
+	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:722)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:750)
+	at com.intellij.ide.IdeEventQueue.defaultDispatchEvent(IdeEventQueue.kt:586)
+	at com.intellij.ide.IdeEventQueue._dispatchEvent(IdeEventQueue.kt:483)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$12$lambda$11$lambda$10$lambda$9(IdeEventQueue.kt:308)
+	at com.intellij.openapi.progress.impl.CoreProgressManager.computePrioritized(CoreProgressManager.java:864)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$12$lambda$11$lambda$10(IdeEventQueue.kt:307)
+	at com.intellij.ide.IdeEventQueueKt.performActivity$lambda$3(IdeEventQueue.kt:959)
+	at com.intellij.openapi.application.TransactionGuardImpl.performActivity(TransactionGuardImpl.java:109)
+	at com.intellij.ide.IdeEventQueueKt.performActivity(IdeEventQueue.kt:959)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent$lambda$12(IdeEventQueue.kt:302)
+	at com.intellij.ide.IdeEventQueue.dispatchEvent(IdeEventQueue.kt:342)
+	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:207)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:128)
+	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:117)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:113)
+	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:105)
+	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:92)
+2025-05-18 14:38:26,517 [   3275] SEVERE - fleet.backend.project.BackendProjectRoots - Failed to open project at /home/enjoyer/projects/GolandProjects/go-pub-lib
+java.lang.NullPointerException
+	at com.intellij.platform.PlatformProjectOpenProcessor$Companion.runDirectoryProjectConfigurators$lambda$3(PlatformProjectOpenProcessor.kt:286)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContextInner(coroutines.kt:360)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invokeSuspend(coroutines.kt:250)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at com.intellij.openapi.progress.CoroutinesKt$blockingContext$2.invoke(coroutines.kt)
+	at kotlinx.coroutines.intrinsics.UndispatchedKt.startUndispatchedOrReturn(Undispatched.kt:44)
+	at kotlinx.coroutines.CoroutineScopeKt.coroutineScope(CoroutineScope.kt:285)
+	at com.intellij.openapi.progress.CoroutinesKt.blockingContext(coroutines.kt:249)
+	at com.intellij.platform.PlatformProjectOpenProcessor$Companion.runDirectoryProjectConfigurators(PlatformProjectOpenProcessor.kt:285)
+	at fleet.backend.project.BackendProjectRootsKt$scheduleOpeningProject$openingProjectJob$1$2$1$2.invokeSuspend(BackendProjectRoots.kt:241)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:33)
+	at kotlinx.coroutines.UndispatchedCoroutine.afterResume(CoroutineContext.kt:277)
+	at kotlinx.coroutines.AbstractCoroutine.resumeWith(AbstractCoroutine.kt:101)
+	at kotlin.coroutines.jvm.internal.BaseContinuationImpl.resumeWith(ContinuationImpl.kt:46)
+	at kotlinx.coroutines.DispatchedTask.run(DispatchedTask.kt:100)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler.runSafely(CoroutineScheduler.kt:610)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.executeTask(CoroutineScheduler.kt:1186)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.runWorker(CoroutineScheduler.kt:775)
+	at kotlinx.coroutines.scheduling.CoroutineScheduler$Worker.run(CoroutineScheduler.kt:762)

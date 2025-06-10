@@ -1,0 +1,95 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T02:53:36.741819898Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "app",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'app-fleet' (all roots)\" with changes in: \"External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)\" with changes in: \"External roots from entity (empty; empty; typebox, package.json, dist, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 523561773,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 50856511,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 472384084,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 21149388,
+      "dumbModeStart" : "2025-05-13T02:53:36.238438369Z",
+      "dumbWallTimeWithPauses" : 359953216,
+      "dumbWallTimeWithoutPauses" : 359953216,
+      "updatingStart" : "2025-05-13T02:53:36.191156528Z",
+      "updatingEnd" : "2025-05-13T02:53:36.598391585Z",
+      "totalWallTimeWithPauses" : 407235057,
+      "wallTimeOnPause" : 436189,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 406798868
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 3,
+      "numberOfScannedFiles" : 1083,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 759
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; typebox, package.json, dist, ...; empty)",
+      "numberOfScannedFiles" : 753,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 753,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 319562846,
+      "totalOneThreadTimeWithPauses" : 382934673,
+      "iterationAndScannersApplicationTime" : 14151094,
+      "filesCheckTime" : 368728786,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 161042363,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 20698832,
+      "roots" : [ ]
+    }, {
+      "providerName" : "External roots from entity (regex, oci8, imagick, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 0,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 91313890,
+      "totalOneThreadTimeWithPauses" : 108739903,
+      "iterationAndScannersApplicationTime" : 8009294,
+      "filesCheckTime" : 100661077,
+      "timeProcessingUpToDateFiles" : 38253935,
+      "timeUpdatingContentLessIndexes" : 287609,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 0,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'app-fleet' (all roots)",
+      "numberOfScannedFiles" : 6,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 6,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1534729,
+      "totalOneThreadTimeWithPauses" : 31887197,
+      "iterationAndScannersApplicationTime" : 28696123,
+      "filesCheckTime" : 2994221,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 9301,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 450556,
+      "roots" : [ ]
+    } ]
+  }
+}

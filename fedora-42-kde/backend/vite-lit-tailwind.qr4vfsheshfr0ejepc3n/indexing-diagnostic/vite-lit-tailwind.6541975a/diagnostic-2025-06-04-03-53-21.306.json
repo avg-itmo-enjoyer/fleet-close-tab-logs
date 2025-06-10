@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.16528",
+    "buildDate" : "2025-05-20T05:20:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-04T00:53:21.306416313Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "vite-lit-tailwind",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; vite, package.json, index.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 4,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 64134617,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 389703,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 63693215,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 654297,
+      "dumbModeStart" : "2025-06-04T00:53:21.290860981Z",
+      "dumbWallTimeWithPauses" : 14697618,
+      "dumbWallTimeWithoutPauses" : 14697618,
+      "updatingStart" : "2025-06-04T00:53:21.235861437Z",
+      "updatingEnd" : "2025-06-04T00:53:21.305558599Z",
+      "totalWallTimeWithPauses" : 69697162,
+      "wallTimeOnPause" : 427897,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 69269265
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 46,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 46
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; vite, package.json, index.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 46,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 46,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 60113704,
+      "totalOneThreadTimeWithPauses" : 64134617,
+      "iterationAndScannersApplicationTime" : 389703,
+      "filesCheckTime" : 63693215,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 2279690,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 654297,
+      "roots" : [ ]
+    } ]
+  }
+}

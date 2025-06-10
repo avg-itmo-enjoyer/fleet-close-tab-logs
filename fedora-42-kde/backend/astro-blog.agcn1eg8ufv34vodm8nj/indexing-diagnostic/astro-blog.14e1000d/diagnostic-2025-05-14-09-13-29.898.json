@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-14T06:13:29.899046343Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "astro-blog",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; unist-util-position, index.d.ts, public.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 270409342,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 18651604,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 251701007,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 19593814,
+      "dumbModeStart" : "2025-05-14T06:13:29.653549528Z",
+      "dumbWallTimeWithPauses" : 244574555,
+      "dumbWallTimeWithoutPauses" : 244574555,
+      "updatingStart" : "2025-05-14T06:13:29.623571771Z",
+      "updatingEnd" : "2025-05-14T06:13:29.898124083Z",
+      "totalWallTimeWithPauses" : 274552312,
+      "wallTimeOnPause" : 339393,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 274212919
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 2765,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 2761
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; unist-util-position, index.d.ts, public.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 2765,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 2761,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 222591154,
+      "totalOneThreadTimeWithPauses" : 270409342,
+      "iterationAndScannersApplicationTime" : 18651604,
+      "filesCheckTime" : 251701007,
+      "timeProcessingUpToDateFiles" : 292465,
+      "timeUpdatingContentLessIndexes" : 69752891,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 19593814,
+      "roots" : [ ]
+    } ]
+  }
+}

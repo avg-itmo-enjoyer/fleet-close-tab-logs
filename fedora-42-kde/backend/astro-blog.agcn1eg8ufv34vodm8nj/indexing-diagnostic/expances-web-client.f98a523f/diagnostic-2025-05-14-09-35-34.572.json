@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-14T06:35:34.572894873Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "expances-web-client",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; validation_error.d.ts, index.d.ts, instance.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 4,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 470152085,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 14567460,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 455496677,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 31785212,
+      "dumbModeStart" : "2025-05-14T06:35:34.125538749Z",
+      "dumbWallTimeWithPauses" : 446235557,
+      "dumbWallTimeWithoutPauses" : 446235557,
+      "updatingStart" : "2025-05-14T06:35:34.096274947Z",
+      "updatingEnd" : "2025-05-14T06:35:34.571774306Z",
+      "totalWallTimeWithPauses" : 475499359,
+      "wallTimeOnPause" : 359797,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 475139562
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 3210,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 3210
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; validation_error.d.ts, index.d.ts, instance.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 3210,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 3210,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 406719948,
+      "totalOneThreadTimeWithPauses" : 470152085,
+      "iterationAndScannersApplicationTime" : 14567460,
+      "filesCheckTime" : 455496677,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 118756560,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 31785212,
+      "roots" : [ ]
+    } ]
+  }
+}

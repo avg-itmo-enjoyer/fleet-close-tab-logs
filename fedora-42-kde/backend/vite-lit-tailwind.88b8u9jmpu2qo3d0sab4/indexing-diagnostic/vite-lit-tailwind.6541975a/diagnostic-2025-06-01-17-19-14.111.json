@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-01T14:19:14.111592954Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "vite-lit-tailwind",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; 2019.d.ts, 2020.d.ts, ajv.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 4,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 185620332,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4106450,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 181456420,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 6621701,
+      "dumbModeStart" : "2025-06-01T14:19:13.940101234Z",
+      "dumbWallTimeWithPauses" : 167440790,
+      "dumbWallTimeWithoutPauses" : 167440790,
+      "updatingStart" : "2025-06-01T14:19:13.915143252Z",
+      "updatingEnd" : "2025-06-01T14:19:14.107542024Z",
+      "totalWallTimeWithPauses" : 192398772,
+      "wallTimeOnPause" : 294431,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 192104341
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 820,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 820
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; 2019.d.ts, 2020.d.ts, ajv.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 820,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 820,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 152428983,
+      "totalOneThreadTimeWithPauses" : 185620332,
+      "iterationAndScannersApplicationTime" : 4106450,
+      "filesCheckTime" : 181456420,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 61692673,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 6621701,
+      "roots" : [ ]
+    } ]
+  }
+}

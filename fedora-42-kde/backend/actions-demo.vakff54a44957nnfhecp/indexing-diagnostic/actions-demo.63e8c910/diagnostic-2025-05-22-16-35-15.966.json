@@ -1,0 +1,50 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-22T13:35:15.96650702Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "actions-demo",
+    "times" : {
+      "scanningReason" : "Reindex of changed dependencies requested, but status is not initialized",
+      "scanningType" : "FULL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 0,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 0,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 0,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 0,
+      "dumbWallTimeWithPauses" : 0,
+      "dumbWallTimeWithoutPauses" : 0,
+      "updatingStart" : "2025-05-22T13:35:15.946633326Z",
+      "updatingEnd" : "2025-05-22T13:35:15.966027988Z",
+      "totalWallTimeWithPauses" : 19394662,
+      "wallTimeOnPause" : 260774,
+      "isCancelled" : true,
+      "cancellationReason" : "java.util.concurrent.CancellationException: Full scanning is queued",
+      "totalWallTimeWithoutPauses" : 19133888
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 0,
+      "numberOfScannedFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 0
+    },
+    "scanningStatistics" : [ ]
+  }
+}

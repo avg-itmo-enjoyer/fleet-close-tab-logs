@@ -1,0 +1,16 @@
+{
+    "zoomLevel": 1.2,
+    "fus.ai.sendAllowed": true,
+    "editor.caretShape": "Vertical",
+    "terminal.enableFocusEditorOnEsc": true,
+    "docker.executable.path": "/usr/bin/podman",
+    "nodejs.interpreters": [
+        {
+            "path": "/home/enjoyer/.local/share/fnm/node-versions/v22.15.0/installation/bin/node",
+            "name": "Node.js 22.15.0"
+        }
+    ],
+    "trimTrailingSpacesOnSave": false,
+    "terminal.bell": false,
+    "theme": "dark"
+}

@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-01T14:21:31.849197766Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "vite-lit-tailwind",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; tailwindcss, vite, package.json, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 5,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 52234136,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 199698,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 51991488,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 377587,
+      "dumbModeStart" : "2025-06-01T14:21:31.833575147Z",
+      "dumbWallTimeWithPauses" : 14787052,
+      "dumbWallTimeWithoutPauses" : 14787052,
+      "updatingStart" : "2025-06-01T14:21:31.791029864Z",
+      "updatingEnd" : "2025-06-01T14:21:31.848362199Z",
+      "totalWallTimeWithPauses" : 57332335,
+      "wallTimeOnPause" : 212929,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 57119406
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 46,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 46
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; tailwindcss, vite, package.json, ...; empty)",
+      "numberOfScannedFiles" : 46,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 46,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 47481171,
+      "totalOneThreadTimeWithPauses" : 52234136,
+      "iterationAndScannersApplicationTime" : 199698,
+      "filesCheckTime" : 51991488,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 2213875,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 377587,
+      "roots" : [ ]
+    } ]
+  }
+}

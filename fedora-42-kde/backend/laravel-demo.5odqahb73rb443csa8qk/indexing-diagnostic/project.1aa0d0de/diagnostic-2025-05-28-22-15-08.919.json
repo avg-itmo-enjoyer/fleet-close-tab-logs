@@ -1,0 +1,103 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-28T19:15:08.919259271Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "DumbIndexing",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "project",
+    "times" : {
+      "scanningIds" : [ 9 ],
+      "contentLoadingVisibleTime" : 6738649,
+      "retrievingChangedDuringIndexingFilesTime" : 21964,
+      "separateApplyingIndexesVisibleTime" : 700102,
+      "updatingStart" : "2025-05-28T19:15:08.897357331Z",
+      "updatingEnd" : "2025-05-28T19:15:08.918893716Z",
+      "totalWallTimeWithPauses" : 21536385,
+      "wallTimeOnPause" : 0,
+      "isCancelled" : false,
+      "dumbModeStart" : "2025-05-28T19:15:08.897357331Z",
+      "dumbWallTimeWithPauses" : 21536385,
+      "dumbWallTimeWithoutPauses" : 21536385,
+      "totalWallTimeWithoutPauses" : 21536385
+    },
+    "fileCount" : {
+      "numberOfChangedDuringIndexingFiles" : 0,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringIndexingStage" : 0,
+      "numberOfFilesIndexedWithLoadingContent" : 3,
+      "numberOfNothingToWriteFiles" : 3
+    },
+    "totalStatsPerFileType" : [ {
+      "fileType" : "PHP",
+      "partOfTotalProcessingTime" : {
+        "part" : 1116659,
+        "total" : 1116659
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 359512,
+        "total" : 359512
+      },
+      "totalNumberOfFiles" : 3,
+      "totalFilesSize" : 744,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 744,
+        "totalCpuTime" : 1116659
+      },
+      "biggestContributors" : [ {
+        "providerName" : "<indexing queue>",
+        "numberOfFiles" : 3,
+        "totalFilesSize" : 744,
+        "partOfTotalProcessingTimeOfThisFileType" : {
+          "part" : 1116659,
+          "total" : 1116659
+        }
+      } ]
+    } ],
+    "totalStatsPerBaseLanguage" : [ {
+      "language" : "PHP",
+      "partOfTotalProcessingTime" : {
+        "part" : 1116659,
+        "total" : 1116659
+      },
+      "partOfTotalContentLoadingTime" : {
+        "part" : 719024,
+        "total" : 359512
+      },
+      "totalNumberOfFiles" : 3,
+      "totalFilesSize" : 744,
+      "totalProcessingSpeed" : {
+        "totalBytes" : 744,
+        "totalCpuTime" : 1116659
+      }
+    } ],
+    "totalStatsPerIndexer" : [ ],
+    "statisticsOfChangedDuringIndexingFiles" : {
+      "numberOfFiles" : 0,
+      "retrievingTime" : 21964
+    },
+    "fileProviderStatistics" : [ {
+      "providerName" : "<indexing queue>",
+      "totalNumberOfIndexedFiles" : 3,
+      "totalNumberOfFilesFullyIndexedByExtensions" : 0,
+      "totalNumberOfNothingToWriteFiles" : 3,
+      "totalIndexingVisibleTime" : 20930521,
+      "contentLoadingVisibleTime" : 6738649,
+      "numberOfTooLargeForIndexingFiles" : 0,
+      "slowIndexedFiles" : [ ],
+      "filesFullyIndexedByExtensions" : [ ],
+      "separateApplyingIndexesVisibleTime" : 700102
+    } ],
+    "visibleTimeToAllThreadTimeRatio" : 18.74387883857113
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.16528",
+    "buildDate" : "2025-05-20T05:20:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-04T00:49:57.961348526Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "vite-lit-tailwind",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; package.json, types, client.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 32002299,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 1034762,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 30920620,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 2125487,
+      "dumbModeStart" : "2025-06-04T00:49:57.930764809Z",
+      "dumbWallTimeWithPauses" : 29825432,
+      "dumbWallTimeWithoutPauses" : 29825432,
+      "updatingStart" : "2025-06-04T00:49:57.913120849Z",
+      "updatingEnd" : "2025-06-04T00:49:57.960590241Z",
+      "totalWallTimeWithPauses" : 47469392,
+      "wallTimeOnPause" : 252067,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 47217325
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 297,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 297
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; package.json, types, client.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 297,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 297,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 26782297,
+      "totalOneThreadTimeWithPauses" : 32002299,
+      "iterationAndScannersApplicationTime" : 1034762,
+      "filesCheckTime" : 30920620,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 8527744,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 2125487,
+      "roots" : [ ]
+    } ]
+  }
+}

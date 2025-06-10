@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T06:40:33.691980676Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "nestjs-demo",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; jest-resolve-dependencies, connect, BlockScope.d.ts, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 3,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 52748458,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 6846757,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 45817359,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 4112642,
+      "dumbModeStart" : "2025-05-13T06:40:33.649337392Z",
+      "dumbWallTimeWithPauses" : 41415619,
+      "dumbWallTimeWithoutPauses" : 41415619,
+      "updatingStart" : "2025-05-13T06:40:33.633729682Z",
+      "updatingEnd" : "2025-05-13T06:40:33.690753011Z",
+      "totalWallTimeWithPauses" : 57023329,
+      "wallTimeOnPause" : 233412,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 56789917
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 505,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 505
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; jest-resolve-dependencies, connect, BlockScope.d.ts, ...; empty)",
+      "numberOfScannedFiles" : 505,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 505,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 39642863,
+      "totalOneThreadTimeWithPauses" : 52748458,
+      "iterationAndScannersApplicationTime" : 6846757,
+      "filesCheckTime" : 45817359,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 11073693,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 4112642,
+      "roots" : [ ]
+    } ]
+  }
+}

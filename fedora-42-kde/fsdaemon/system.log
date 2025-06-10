@@ -1,0 +1,31 @@
+=== OS ===
+System name    : Fedora Linux
+Kernel version : 6.14.0-0.rc3.29.fc42.x86_64
+OS version     : Linux 42 Fedora Linux
+Host name      : feddora-lptp
+Uptime         : 441 s.
+CPU            : 12th Gen Intel(R) Core(TM) i5-12450H cpu0 (12 cores)
+Load average   : 1.53 0.87 0.40
+
+=== MEMORY ===
+total memory :  16447848448 bytes
+used memory  :   6603223040 bytes
+total swap   :   8589930496 bytes
+used swap    :            0 bytes
+
+=== DISKS ===
+"/dev/nvme0n1p3" mounted on "/" : 433092771840 / 498403901440
+   SSD, FS: "btrfs", removable: false
+"/dev/nvme0n1p3" mounted on "/home" : 433092771840 / 498403901440
+   SSD, FS: "btrfs", removable: false
+"/dev/nvme0n1p2" mounted on "/boot" :    645476352 /   1020702720
+   SSD, FS: "ext4", removable: false
+"/dev/nvme0n1p1" mounted on "/boot/efi" :    607752192 /    627900416
+   SSD, FS: "vfat", removable: false
+
+=== NETWORK INTERFACES ===
+enp3s0    :          0 B ↓ /          0 B ↑
+docker0   :          0 B ↓ /          0 B ↑
+lo        :   41548794 B ↓ /   41548794 B ↑
+wlo1      :   45106083 B ↓ /    7472992 B ↑
+

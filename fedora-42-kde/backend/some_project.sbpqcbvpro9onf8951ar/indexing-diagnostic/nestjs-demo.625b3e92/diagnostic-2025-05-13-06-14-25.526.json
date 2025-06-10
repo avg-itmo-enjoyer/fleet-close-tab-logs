@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-13T03:14:25.526478183Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "nestjs-demo",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; package.json, package.json, package.json, ...; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 2,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 540460446,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 56036945,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 484370100,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 15556421,
+      "dumbModeStart" : "2025-05-13T03:14:25.053881074Z",
+      "dumbWallTimeWithPauses" : 471549854,
+      "dumbWallTimeWithoutPauses" : 471549854,
+      "updatingStart" : "2025-05-13T03:14:24.979058449Z",
+      "updatingEnd" : "2025-05-13T03:14:25.525430928Z",
+      "totalWallTimeWithPauses" : 546372479,
+      "wallTimeOnPause" : 222523,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 546149956
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 1434,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 1434
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; package.json, package.json, package.json, ...; empty)",
+      "numberOfScannedFiles" : 1434,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1434,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 225743183,
+      "totalOneThreadTimeWithPauses" : 540460446,
+      "iterationAndScannersApplicationTime" : 56036945,
+      "filesCheckTime" : 484370100,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 74250318,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 15556421,
+      "roots" : [ ]
+    } ]
+  }
+}

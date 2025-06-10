@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.16528",
+    "buildDate" : "2025-05-20T05:20:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-06-06T02:29:29.375796425Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "interview-questions",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Module 'interview-questions-fleet' (all roots)\" with changes in: \"External roots from entity (superglobals, ZendUtils, gmagick, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 113520752,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 4877335,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 108465888,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 29500333,
+      "dumbModeStart" : "2025-06-06T02:29:28.884317285Z",
+      "dumbWallTimeWithPauses" : 122370925,
+      "dumbWallTimeWithoutPauses" : 122370925,
+      "updatingStart" : "2025-06-06T02:29:28.884056446Z",
+      "updatingEnd" : "2025-06-06T02:29:29.00668821Z",
+      "totalWallTimeWithPauses" : 122631764,
+      "wallTimeOnPause" : 271468,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 122360296
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 325,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 325
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (superglobals, ZendUtils, gmagick, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 91381096,
+      "totalOneThreadTimeWithPauses" : 111359736,
+      "iterationAndScannersApplicationTime" : 4363876,
+      "filesCheckTime" : 106932057,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 719588,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 29459015,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Module 'interview-questions-fleet' (all roots)",
+      "numberOfScannedFiles" : 1,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 1,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 489205,
+      "totalOneThreadTimeWithPauses" : 2161016,
+      "iterationAndScannersApplicationTime" : 513459,
+      "filesCheckTime" : 1533831,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 7357,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 41318,
+      "roots" : [ ]
+    } ]
+  }
+}

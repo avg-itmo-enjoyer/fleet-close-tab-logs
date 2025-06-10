@@ -1,0 +1,65 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-28T19:11:55.435637633Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "laravel-demo",
+    "times" : {
+      "scanningReason" : "changes in: \"External roots from entity (empty; empty; composer.phar; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 3,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 131103357,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 27099210,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 103959639,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 20662465,
+      "dumbModeStart" : "2025-05-28T19:11:55.333738183Z",
+      "dumbWallTimeWithPauses" : 100988435,
+      "dumbWallTimeWithoutPauses" : 100988435,
+      "updatingStart" : "2025-05-28T19:11:55.288026002Z",
+      "updatingEnd" : "2025-05-28T19:11:55.434726618Z",
+      "totalWallTimeWithPauses" : 146700616,
+      "wallTimeOnPause" : 4702210,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 141998406
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 1,
+      "numberOfScannedFiles" : 673,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 671
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (empty; empty; composer.phar; empty)",
+      "numberOfScannedFiles" : 673,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 671,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 95554532,
+      "totalOneThreadTimeWithPauses" : 131103357,
+      "iterationAndScannersApplicationTime" : 27099210,
+      "filesCheckTime" : 103959639,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 17768938,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 20662465,
+      "roots" : [ ]
+    } ]
+  }
+}

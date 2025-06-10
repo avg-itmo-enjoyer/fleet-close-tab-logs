@@ -1,0 +1,80 @@
+{
+  "appInfo" : {
+    "build" : "252.12832",
+    "buildDate" : "2025-04-30T10:39:00Z[UTC]",
+    "productCode" : "FLIJ",
+    "generated" : "2025-05-28T19:11:47.08389032Z",
+    "os" : "Linux 6.14.0-0.rc3.29.fc42.x86_64",
+    "runtime" : "JetBrains s.r.o. 21.0.6 21.0.6+9-b929.24"
+  },
+  "runtimeInfo" : {
+    "maxMemory" : 891289600,
+    "numberOfProcessors" : 12,
+    "maxNumberOfIndexingThreads" : 12,
+    "maxSizeOfFileForIntelliSense" : 2560000,
+    "maxSizeOfFileForContentLoading" : 20971520
+  },
+  "type" : "Scanning",
+  "projectIndexingActivityHistory" : {
+    "projectName" : "laravel-demo",
+    "times" : {
+      "scanningReason" : "Merged changes in: \"Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)\" with changes in: \"External roots from entity (ZendUtils, gmagick, igbinary, ...; empty; empty; empty)\"",
+      "scanningType" : "PARTIAL",
+      "scanningId" : 1,
+      "creatingIteratorsTime" : 0,
+      "concurrentHandlingWallTimeWithoutPauses" : 0,
+      "concurrentHandlingWallTimeWithPauses" : 0,
+      "concurrentHandlingSumOfThreadTimesWithPauses" : 63090939,
+      "concurrentIterationAndScannersApplicationSumOfThreadTimesWithPauses" : 2309883,
+      "concurrentFileCheckSumOfThreadTimesWithPauses" : 60685083,
+      "delayedPushPropertiesStageTime" : 0,
+      "indexExtensionsTime" : 15872046,
+      "dumbModeStart" : "2025-05-28T19:11:46.557821792Z",
+      "dumbWallTimeWithPauses" : 76260051,
+      "dumbWallTimeWithoutPauses" : 76260051,
+      "updatingStart" : "2025-05-28T19:11:46.557576614Z",
+      "updatingEnd" : "2025-05-28T19:11:46.634081843Z",
+      "totalWallTimeWithPauses" : 76505229,
+      "wallTimeOnPause" : 310369,
+      "isCancelled" : false,
+      "totalWallTimeWithoutPauses" : 76194860
+    },
+    "fileCount" : {
+      "numberOfFileProviders" : 2,
+      "numberOfScannedFiles" : 332,
+      "numberOfFilesIndexedByInfrastructureExtensionsDuringScan" : 0,
+      "numberOfFilesScheduledForIndexingAfterScan" : 332
+    },
+    "scanningStatistics" : [ {
+      "providerName" : "External roots from entity (ZendUtils, gmagick, igbinary, ...; empty; empty; empty)",
+      "numberOfScannedFiles" : 324,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 324,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 53313075,
+      "totalOneThreadTimeWithPauses" : 61277765,
+      "iterationAndScannersApplicationTime" : 2255266,
+      "filesCheckTime" : 58979860,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 417507,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 15784279,
+      "roots" : [ ]
+    }, {
+      "providerName" : "Custom kind roots from entity (sass_functions.scss, sass_color.scss, sass_list.scss, ..., empty)",
+      "numberOfScannedFiles" : 8,
+      "numberOfSkippedFiles" : 0,
+      "numberOfFilesForIndexing" : 8,
+      "numberOfFilesFullyIndexedByInfrastructureExtensions" : 0,
+      "filesFullyIndexedByInfrastructureExtensions" : [ ],
+      "statusTime" : 1360119,
+      "totalOneThreadTimeWithPauses" : 1813174,
+      "iterationAndScannersApplicationTime" : 54617,
+      "filesCheckTime" : 1705223,
+      "timeProcessingUpToDateFiles" : 0,
+      "timeUpdatingContentLessIndexes" : 18627,
+      "timeIndexingWithoutContentViaInfrastructureExtension" : 87767,
+      "roots" : [ ]
+    } ]
+  }
+}
